@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" .Params.name "subtitle" .Params.sector) }}
+<div class="flex-m mhn3-m mb4">
+    <span> CAND</span>
+    <div class="ph3-m w-50-m">
+      {{ .Params.name }}
+    </div>
+  
+    <div class="ph3-m w-50-m">
+      {{ printf "%#v" .Params }}
+    </div>
+  
+  </div>
+
+  {{end}}

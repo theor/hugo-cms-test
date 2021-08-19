@@ -1,5 +1,5 @@
 ---
-name: Eric2
-sector: test2
+name: Eric Bouchard
+sector: Saint Charles
 ---
 lorem2

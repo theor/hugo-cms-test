@@ -1,5 +1,5 @@
 ---
-name: Eric
-sector: test
+name: Thommy Theberge
+sector: Les Explorateurs
 ---
 lorem
