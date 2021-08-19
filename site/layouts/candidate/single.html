@@ -1,15 +1,16 @@
 {{ define "main" }}
-{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" .Params.name "subtitle" .Params.sector) }}
-<div class="flex-m mhn3-m mb4">
-    <span> CAND</span>
-    <div class="ph3-m w-50-m">
-      {{ .Params.name }}
-    </div>
-  
-    <div class="ph3-m w-50-m">
-      {{ printf "%#v" .Params }}
-    </div>
-  
+
+<div class="mw6 center ph3 pv4">
+  <h1 class="f2 lh-title b mb3">{{.Params.name}}</h1>
+  <div class="flex justify-between grey-3">
+    <p>{{ .Params.sector }}</p>
+    <p>514-000-0000</p>
   </div>
+  <div class="cms mw6">
+    <p>{{ .Description }}</p>
+    {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+    {{ .Content }}
+  </div>
+</div>
 
   {{end}}
