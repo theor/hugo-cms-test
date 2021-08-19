@@ -15,6 +15,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "candidate"
+    label: "Candidat"
+    folder: "site/content/candidate" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields:
+      - {label: "Nom", name: "name", widget: "string"}
+      - {label: "Arrondissement", name: "sector", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     files:
@@ -54,21 +63,6 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/candidates/_index.md"
-        name: "candidates"
-        label: "Candidats"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - name: "candidates"
-            label: "Candidats"
-            widget: list
-            create: true
-            fields:
-              - {label: "Nom", name: "name", widget: "string"}
-              - {label: "Arrondissement", name: "sector", widget: "string"}
-              - {label: "Image", name: "image", widget: "image", required: false}
-              - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"

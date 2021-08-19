@@ -3,8 +3,8 @@
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
 <div class="mw7 center ph3 pt4">
-
-    {{ range .Params.candidates }}
+  {{ printf "%#v" .Pages }}
+    {{ range .Pages }}
         {{ partial "candidate" . }}
 
     {{ end }}
