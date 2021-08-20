@@ -60,10 +60,10 @@
 	</div> -->
 </section>
   <!-- </footer> -->
+  {{ if .IsHome }}
+  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}
   {{ $script := .Site.Data.webpack.main }}
   {{ with $script.js }}
 	<script src="{{ relURL . }}"></script>
-  {{ end }}
-  {{ if .IsHome }}
-	<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ end }}
