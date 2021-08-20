@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts'; 
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+// 1. Import the initial variables
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$primary: #262262;
+$secondary: #FFB512;
+$link: $secondary;
+$text-strong: findColorInvert($grey-darker);
+// Add pink and its invert
+// $pink: #ff8080;
+// $pink-invert: #fff;
+// Update the sans-serif font family
+// $family-sans-serif: "Helvetica", "Arial", sans-serif;
+// 3. Set the derived variables
+// Use the new pink as the primary color
+// $primary: $blue;
+// $secondary: $yellow;
+// $primary-invert: $pink-invert;
+// 4. Import the rest of Bulma
+
+@import "../../node_modules/bulma/bulma";
+
+.navbar-item img.navbar-img {
+    max-height: unset;
+}
+
+.navbar {
+    border-bottom: solid 5px $primary;
+}
+
+.news-preview {
+    border: solid 2px $link;
+}

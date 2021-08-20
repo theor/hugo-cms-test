@@ -1,13 +1,44 @@
 {{ define "main" }}
-
-<img src="{{ .Params.image }}"></img>
-
-{{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
-
+<section class="hero">
+    <!-- <div class="hero-body is-fullwidth"> -->
+        <img src="img/ban_accueil-80-copy-1.jpg" class="is-fullwidth">
+    <!-- </div> -->
+</section>
+<section class="section">
+    <div class="container is-max-widescreen">
+      <h1 class="title">
+        Votre implication
+      </h1>
+      <div class="columns">
+        <div class="column">
+            <a href="/devenez-membre" class="button is-fullwidth is-rounded is-large is-primary"><strong>Devenez membre</strong></a>
+        </div>
+        <div class="column">
+            <a href="#" class="button is-fullwidth is-rounded is-large is-primary"><strong>Faites un don</strong></a>
+        </div>
+        <div class="column">
+            <a href="#" class="button is-fullwidth is-rounded is-large is-primary"><strong>Impliquez-vous</strong></a>
+        </div>
+    </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container is-max-widescreen">
+          
+      <h1 class="title">
+        Actualités
+      </h1>
+        <div class="tile is-ancestor">
+            {{ range (first 3 (where .Site.RegularPages.ByPublishDate.Reverse "Section" "post")) }}
+            <div class="tile is-parent">
+                <article class="tile is-child news-preview is-spaced p-4" style="display:flex; flex-direction: column;">
+                      <p class="subtitle"><a class="has-text-primary" href="{{ .RelPermalink }}">{{ .Params.title }}</a></p>
+                      <p style="flex:auto">{{ .Summary  }}</p>
+                      <p class="pt-2"><a href="{{ .RelPermalink }}">Lire la suite</a></p>
+                  </article>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+  </section>
 {{ end }}

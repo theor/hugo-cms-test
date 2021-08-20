@@ -1,53 +1,64 @@
-<footer class="bg-black ph3 pv4 white">
-
-	<div class="mw7 center pt3">
-
-		<div class="measure-narrow center mb4">
-
-			<img src="/img/AL_logo_web_renv@2x.png" alt="Action Longueuil" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
+<!-- <footer class="footer"> -->
+	<section class="section has-background-primary has-text-light">
+		<div class="container is-max-widescreen">
+		<div class="columns">
+			<div class="column has-text-centered">
+			  <img src="img/AL_logo_web_renv@2x.png" width="50%">
+			</div>
+			<div class="column">
+			  <div class="block">
+				4501 rue Bishop, bur.  B-102<br/>
+				Longueuil, Québec<br/>
+				J3Y 9E1
+			  </div>
+			  <div class="block">
+				 
+				Des questions? Écrivez-nous!<br/>
+				<a href="mailto:info@actionlongueuil.com">info@actionlongueuil.com</a>
+			  </div>
+			  <div class="block">
+				<a href="tel:(450) 332-2245">
+					<span class="icon">
+						<i class="fas fa-phone"></i>
+					</span>
+				(450) 332-2245
+				</a>	
+			  </div>
+			  <div class="block">
+				<a class="icon" href="https://www.facebook.com/ActionLongueuil">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://twitter.com/actionlongueuil?lang=en" class="icon">
+					<i class="fab fa-twitter"></i>
+				</a>
+			  </div>
+			</div>
+			<div class="column">
+				<div class="block">
+			  <a href="https://monelection.org/form/donation/0MZKplDAowudKmGqU3KtlkzF9lXXkE" class="button is-link is-rounded">
+				  <strong>Faites un don</strong>
+			  </a>
+				</div>
+				<div class="block">
+			  <a href="/devenez-membre/" class="button is-rounded">
+				Devenez membre
+			  </a>
+			</div>
+			<div class="block">
+			  <a href="/devenez-benevole/" class="button is-rounded">
+				Impliquez-vous</a>
+			</div>
+			</div>
+		  </div>
 		</div>
+	<!-- <div class="content has-text-centered">
+	  <p>
+		<strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+		<a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+		is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+	  </p>
+	</div> -->
+</section>
+  <!-- </footer> -->
 
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latestrr offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
-
-		</div>
-	</div>
-
-</footer>
-
-{{ partial "svg" . }}
-
-<script src="/app.js"></script>
+<script src="main.js"></script>

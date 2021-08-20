@@ -1,6 +1,12 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" "This is where the heading goes" "subtitle" "This is where the subtitle goes") }}
+<section class="section">
+    <div class="container is-max-widescreen">
+        {{ if .Params.image }}<img class="image is-5by1" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+<h1 class="title">{{ .Title }}</h1>
+<div class="content">
 {{ .Content }}
-
+</div>
+</div>
+</section>
 {{ end }}
