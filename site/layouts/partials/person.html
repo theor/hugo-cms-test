@@ -1,0 +1,34 @@
+{{ $anchor := anchorize .person.Params.name }}
+
+<a id="{{ $anchor }}"></a>
+{{ if .person.Params.image }}
+<img class="image " src="{{ .person.Params.image }}" alt="{{ .Title }}" />
+{{ end }}
+<h1 class="title"><a href="{{.url}}#{{$anchor}}">{{ .person.Params.name }}</a></h1>
+<h2 class="subtitle">{{ .person.Params.sector }}</h1>
+   
+<p>
+    <a href="mailto:{{.person.Params.email}}">
+        <i class="fas fa-envelope"></i> {{ .person.Params.email }}
+    </a>
+</p>
+<p>
+    <a href="tel:{{.person.Params.cell}}">
+        <i class="fas fa-phone-alt"></i> {{ .person.Params.cell }}
+    </a>
+</p>
+{{ if .person.Params.info }}
+<p>
+    <i class="fas fa-info-circle"></i> {{ .person.Params.info }}
+</p>
+{{ end }}
+<div style="flex:1"></div>
+<div class="wrap-collabsible">
+    <input id="collapsible-{{.person.Params.name}}" class="toggle" type="checkbox">
+    <label for="collapsible-{{.person.Params.name}}" class="lbl-toggle">Bio</label>
+    <div class="collapsible-content">
+      <div class="content-inner content">
+            {{.person.Content}}
+      </div>
+    </div>
+  </div>

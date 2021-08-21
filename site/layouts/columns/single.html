@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<section class="section">
+    <div class="container is-max-widescreen">
+        <div class="columns">
+            {{ range .Params.columns }}
+            <div class="column">
+                <div class="content">
+                    {{ $.Page.RenderString .text }}
+                </div>
+                {{ if .button }}
+                <a class="button is-medium is-rounded is-link" href="{{ .button_href }}">
+                    <strong>
+                        {{ .button }}
+                    </strong>
+                </a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+
+    </div>
+    </div>
+</section>
+{{ end }}

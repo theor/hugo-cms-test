@@ -43,3 +43,56 @@ $text-strong: findColorInvert($grey-darker);
 .news-preview {
     border: solid 2px $link;
 }
+
+// collapsible
+input[type="checkbox"] {
+    display: none;
+  }
+  .wrap-collabsible {
+    border-bottom: 5px solid $primary;
+  }
+  .wrap-collabsible:hover {
+    border-bottom: 5px solid $secondary;
+  }
+  .lbl-toggle {
+    margin-top: 1em;
+    display: block;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+  }
+  .lbl-toggle:hover {
+    color: $secondary;
+  }
+  .lbl-toggle::before {
+    content: " ";
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: 0.7rem;
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-out;
+  }
+  .toggle:checked + .lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+  }
+  .collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+  }
+  .toggle:checked + .lbl-toggle + .collapsible-content {
+    max-height: 10000px;
+  }
+  .toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .collapsible-content .content-inner {
+    padding: 0.5rem 1rem;
+  }
+  .collapsible-content p {
+    margin-bottom: 0;
+  }
+  

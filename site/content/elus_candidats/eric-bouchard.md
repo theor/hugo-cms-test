@@ -2,6 +2,10 @@
 name: Eric Bouchard
 sector: Saint Charles
 image: https://www.actionlongueuil.com/wp-content/uploads/2021/06/AL_profilpic_Eric-Bouchard.png
+cell: "555-404-3322"
+candidat: true
+elu: true
+info: Conseiller municipal de la ville de Longueuil (depuis 2017)
 ---
 **Conseiller municipal de la ville de Longueuil (depuis 2017)** 
 

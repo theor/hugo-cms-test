@@ -15,14 +15,20 @@ collections: # A list of collections the CMS should be able to edit
       # - {label: "Intro Blurb", name: "description", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "candidate"
+  - name: "candidats"
     label: "Candidat"
-    folder: "site/content/candidate" # The path to the folder where the documents are stored
+    filter: {field: "candidat", value: true}
+    folder: "site/content/elus_candidats" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    delete: true
     fields:
       - {label: "Nom", name: "name", widget: "string"}
       - {label: "Arrondissement", name: "sector", widget: "string"}
+      - {label: "Cell", name: "cell", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Elu", name: "elu", widget: "boolean", required: false}
+      - {label: "Candidat", name: "candidat", widget: "boolean", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
