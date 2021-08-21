@@ -26,6 +26,6 @@ columns:
 
       Communiquez avec nous en ciblant quel type de bénévolat vous intéresse.   
 
-    button: Impliquez-vous
-    button_href: https://monelection.org/form/volunteer/2Io5BdnTSrQhtp3iD7NOhkGWTMT8Ho
+    button: Impliquez vous
+    button_href: link_don
 ---

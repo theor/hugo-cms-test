@@ -21,5 +21,5 @@ columns:
       Cette étape franchie, vous serez ajouté à notre liste d’envoi et vous pourrez participer aux activités.
 
     button: Devenez Membre
-    button_href: https://monelection.org/form/member/D0Mwc7wZWS3rPJkTwiJIo5BEpW1RaH
+    button_href: link_member
 ---

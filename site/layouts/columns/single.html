@@ -9,9 +9,9 @@
                     {{ $.Page.RenderString .text }}
                 </div>
                 {{ if .button }}
-                <a class="button is-medium is-rounded is-link" href="{{ .button_href }}">
+                <a class="button is-medium is-rounded is-link" href="{{ $.Param .button_href }}">
                     <strong>
-                        {{ .button }}
+                        {{ default .button ($.Param .button) }}
                     </strong>
                 </a>
                 {{ end }}

@@ -2,9 +2,12 @@ baseurl = "/"
 languageCode = "fr-ca"
 languageLang = "fr"
 title = "Homepage"
-
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 summaryLength = 15
+
+[params]
+telephone = "(450) 332-2245"
+link_don = "https://monelection.org/form/donation/0MZKplDAowudKmGqU3KtlkzF9lXXkE"
+link_member = "https://monelection.org/form/member/D0Mwc7wZWS3rPJkTwiJIo5BEpW1RaH"
+link_volunteer = "https://monelection.org/form/volunteer/2Io5BdnTSrQhtp3iD7NOhkGWTMT8Ho"
+address = "4501 rue Bishop, bur. B-102\n\nLongueuil, Québec\n\nJ3Y 9E1"

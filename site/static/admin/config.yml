@@ -5,8 +5,24 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "pages"
+    label: "Config"
+    files:
+      - file: "site/config.toml"
+        label: "Global"
+        name: "home"
+        fields:
+          - label: Params
+            name: params
+            widget: object
+            fields:
+              - {label: Téléphone, name: telephone, widget: string, required: true, default: ""}
+              - {label: Lien Faire un don, name: link_don, widget: string, required: true, default: ""}
+              - {label: Lien Devenir member, name: link_member, widget: string, required: true, default: ""}
+              - {label: Lien Volontaire, name: link_volunteer, widget: string, required: true, default: ""}
+              - {label: Adresse, name: address, widget: text, required: true, default: ""}
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
+    label: "Actualités" # Used in the UI, ie.: "New Post"
     folder: "site/content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -16,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "candidats"
-    label: "Candidat"
+    label: "Candidats"
     slug: "{{name}}"
     folder: "site/content/elus_candidats" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -30,32 +46,3 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Elu", name: "elu", widget: "boolean", required: false}
       - {label: "Candidat", name: "candidat", widget: "boolean", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
-    files:
-      - file: "site/content/_index.md"
-        label: "Home Page"
-        name: "home"
-        fields:
-          - {label: Téléphone, name: telephone, widget: string, required: true}
-          - {label: Lien Faire un don, name: link_don, widget: string, required: true}
-          - {label: Lien Devenir member, name: link_member, widget: string, required: true}
-          - {label: Lien Volontaire, name: link_volunteer, widget: string, required: true}
-          - {label: Adresse, name: address, widget: text, required: true}
-      - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text

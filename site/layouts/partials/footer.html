@@ -7,7 +7,7 @@
 			</div>
 			<div class="column">
 			  <div class="block">
-				{{.Site.Home.Params.Address | markdownify}}
+				{{.Site.Params.Address | markdownify}}
 			  </div>
 			  <div class="block">
 				 
@@ -15,11 +15,11 @@
 				<a href="mailto:info@actionlongueuil.com">info@actionlongueuil.com</a>
 			  </div>
 			  <div class="block">
-				<a href="tel:{{.Site.Home.Params.Telephone}}">
+				<a href="tel:{{.Site.Params.Telephone}}">
 					<span class="icon">
 						<i class="fas fa-phone"></i>
 					</span>
-					{{.Site.Home.Params.Telephone}}
+					{{.Site.Params.Telephone}}
 				</a>	
 			  </div>
 			  <div class="block">
@@ -33,7 +33,7 @@
 			</div>
 			<div class="column">
 				<div class="block">
-			  <a href="https://monelection.org/form/donation/0MZKplDAowudKmGqU3KtlkzF9lXXkE" class="button is-link is-rounded">
+			  <a href="{{ $.Site.Params.link_don }}" class="button is-link is-rounded">
 				  <strong>Faites un don</strong>
 			  </a>
 				</div>
