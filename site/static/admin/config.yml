@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "candidats"
     label: "Candidat"
-    filter: {field: "candidat", value: true}
+    slug: "{{name}}"
     folder: "site/content/elus_candidats" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     delete: true
@@ -37,7 +37,11 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - {label: Image, name: image, widget: image}
+          - {label: Téléphone, name: telephone, widget: string, required: true}
+          - {label: Lien Faire un don, name: link_don, widget: string, required: true}
+          - {label: Lien Devenir member, name: link_member, widget: string, required: true}
+          - {label: Lien Volontaire, name: link_volunteer, widget: string, required: true}
+          - {label: Adresse, name: address, widget: text, required: true}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"

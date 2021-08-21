@@ -7,9 +7,7 @@
 			</div>
 			<div class="column">
 			  <div class="block">
-				4501 rue Bishop, bur.  B-102<br/>
-				Longueuil, Québec<br/>
-				J3Y 9E1
+				{{.Site.Home.Params.Address | markdownify}}
 			  </div>
 			  <div class="block">
 				 
@@ -17,11 +15,11 @@
 				<a href="mailto:info@actionlongueuil.com">info@actionlongueuil.com</a>
 			  </div>
 			  <div class="block">
-				<a href="tel:(450) 332-2245">
+				<a href="tel:{{.Site.Home.Params.Telephone}}">
 					<span class="icon">
 						<i class="fas fa-phone"></i>
 					</span>
-				(450) 332-2245
+					{{.Site.Home.Params.Telephone}}
 				</a>	
 			  </div>
 			  <div class="block">
