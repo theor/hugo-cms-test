@@ -18,13 +18,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.((png)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
+        test: /\.((png)|(svg)|(gif)|(eot)|(woff)|(woff2)|(ttf))(\?v=\d+\.\d+\.\d+)?$/,
         loader: "file-loader?name=/[hash].[ext]"
       },
-      {
-        test: /\.((eot)|(woff)|(woff2)|(ttf))(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader?name=/webfonts/[name].[ext]"
-      },
+      // {
+      //   test: /\.((eot)|(woff)|(woff2)|(ttf))(\?v=\d+\.\d+\.\d+)?$/,
+      //   loader: "file-loader?name=/webfonts/[name].[ext]"
+      // },
       
       {
         loader: "babel-loader",
@@ -46,13 +46,13 @@ module.exports = {
       path: path.join(process.cwd(), "site/data"),
       prettyPrint: true
     }),
-    new CopyWebpackPlugin([
-      {
-        from: "./src/fonts/",
-        to: "fonts/",
-        flatten: true
-      }
-    ]),
+    // new CopyWebpackPlugin([
+    //   {
+    //     from: "./src/fonts/",
+    //     to: "fonts/",
+    //     flatten: true
+    //   }
+    // ]),
     new HtmlWebpackPlugin({
       filename: 'admin/index.html',
       template: 'src/cms.html',
