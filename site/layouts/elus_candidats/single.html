@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ $permalink := .Permalink }}
+
+<section class="section">
+    <div class="container is-max-widescreen">
+        <div class="block">
+    <a href="/candidats"><i class="fas fa-chevron-left"></i> Retour à la liste des candidats</a>
+</div>
+        {{- partial "person.html" (dict "person" . "url" $permalink "collapsible" false) -}}
+</div>
+</section>
+{{ end }}

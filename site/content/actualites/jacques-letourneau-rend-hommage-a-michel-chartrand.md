@@ -1,6 +1,7 @@
 ---
 title: "La petite histoire de l’œuvre qui rend hommage à Michel Chartrand"
 date: 2021-07-23T14:04:10.000Z
+is_post: true
 
 # image: /img/blog-chemex.jpg
 ---

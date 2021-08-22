@@ -4,13 +4,12 @@
 {{ $show_candidats := .Params.candidats }}
 <section class="section">
   <div class="container">
-    
 <h1 class="title">{{ .Title }}</h1>
 <div class="columns is-multiline">
 {{ range (where .Site.RegularPages.ByTitle "Section" "elus_candidats" ) }}
 {{ if or (eq $show_elus .Params.elu) (eq $show_candidats .Params.candidat) }}
   <div class="column is-4" style="display: flex; flex-direction: column">
-    {{- partial "person.html" (dict "person" . "url" $permalink) -}}
+    {{- partial "person.html" (dict "person" . "url" $permalink "collapsible" true) -}}
   </div>
   
 {{ end }}

@@ -31,6 +31,9 @@
       <h1 class="title">
         Actualités
       </h1>
+      <a href="/actualites/" class="">
+        Voir toutes les actualités
+      </a>
         <div class="tile is-ancestor">
             {{ range (first 3 (where .Site.RegularPages.ByPublishDate.Reverse "Section" "post")) }}
             <div class="tile is-parent">
