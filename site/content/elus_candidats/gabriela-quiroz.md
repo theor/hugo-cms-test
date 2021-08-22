@@ -1,25 +1,21 @@
 ---
-name: Gabriela Quiroz
-sector: District de Laflèche
-image: https://www.actionlongueuil.com/wp-content/uploads/2021/06/AL_profilpic_Gabriela-Quiroz-300x300.png
-cell: "555-404-3322"
-email: gabrielaquiroz@actionlongueuil.com
+name: Amélie Gilbert
+sector: District Vieux-Saint-Hubert-de-la-Savane
+cell: 514-973-6811
+email: ameliegilbert@actionlongueuil.com
+image: img/al_profilpic_amelie-gilbert-300x300-1-.png
 candidat: true
 ---
-D’origine chilienne, Gabriela Quiroz est arrivée au Québec à l’âge de 5 ans. Sa famille s’est rapidement installée à Saint-Hubert, dans le quartier Laflèche, où elle a grandi.
+Amélie Gilbert est une fière résidente de l’arrondissement de Saint-Hubert depuis près de 12 ans.
 
-Elle a fait son primaire à l’école St-Joseph et son secondaire à l’école Monseigneur-A.-M.-Parent, dans le programme Musique-Études.
+Jeune maman de deux enfants, Mme Gilbert est très impliquée dans la vie communautaire et politique de Longueuil.
 
-Plus de 30 ans plus tard, Gabriela habite toujours fièrement Laflèche, un quartier qu’elle connaît par cœur et pour lequel elle veut le meilleur. Son saut en politique municipale aux côtés Jacques Létourneau a un but clair : redonner et améliorer la qualité de vie, dans tous les aspects, de ses concitoyens.nes de Laflèche.
+Bachelière en criminologie de l’Université de Montréal et diplômée du cégep Édouard-Montpetit, Amélie Gilbert est intervenante communautaire depuis 2007. Elle a commencé sa carrière avec l’organisme l’Auberge du cœur l’Antre-Temps. Elle s’est donnée corps et âme dans plusieurs projets, notamment la Nuit des sans-abri de Longueuil, les Fêtes de quartier et plusieurs tables de concertation.
 
-Bachelière en science politique, concentration administration publique et politiques publiques à l’UQAM, Mme Quiroz a travaillé pendant plus de 10 ans en politique provinciale auprès des ministres Nicole Ménard et David Heurtel, dont près de 5 ans comme directrice de cabinet au ministère de l’Environnement et au ministère de l’Immigration.
+C’est en 2009 qu’Amélie Gilbert aura sa première expérience en politique. Elle travaillera pour le bureau de la circonscription de Marie-Victorin comme attachée politique pour Bernard Drainville.
 
-Son expérience acquise au Parlement à Québec est un atout fort de son parcours professionnel qui bénéficiera aux citoyens.es de Laflèche.
+Son expérience en communications, en politique et à titre d’intervenante communautaire auprès de clientèles vulnérables fait de Mme Gilbert une candidate idéale pour comprendre les besoins de tous les citoyens de Longueuil.
 
-Actuellement, Gabriela Quiroz travaille à l’Union des producteurs agricoles (UPA), située à Longueuil, à titre de gestionnaire des relations publiques, médiatiques et gouvernementales.
+Proche des gens, à l’écoute des autres et joyeuse, Amélie Gilbert a plusieurs idées en tête pour faire avancer sa ville et le bien-être de ses concitoyens.nes. Parmi celles-ci, l’accès à des infrastructures de qualité, le logement abordable, la sécurité et la vie de quartier. Elle souhaite aussi donner une voix forte aux jeunes parents au sein du Conseil de ville de Longueuil.
 
-En plus de sa feuille de route impressionnante professionnellement, Gabriela est aussi une femme impliquée dans des causes qui lui tiennent à cœur.
-
-Depuis quelques années, elle œuvre auprès de la Fondation Marie-Eve Saulnier, qui soutient les familles ayant une situation financière précaire et dont un enfant est atteint d’un cancer. Depuis un an, elle occupe le poste de présidente du Conseil d’administration.
-
-Gabriela Quiroz a aussi fait du bénévolat à l’école primaire Lajeunesse à LeMoyne pour le Club des petits déjeuners.
+Afin de poursuivre son engagement avec passion, Amélie Gilbert se présente comme candidate dans le district Vieux-Saint-Hubert-de-la-Savane avec Action Longueuil, équipe Jacques Létourneau aux élections municipales du 7 novembre prochain.
