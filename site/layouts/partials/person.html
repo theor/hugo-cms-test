@@ -4,16 +4,16 @@
 {{ if .person.Params.image }}
 <img class="image " src="{{ .person.Params.image }}" alt="{{ .Title }}" />
 {{ end }}
-<h1 class="title"><a href="{{.url}}#{{$anchor}}">{{ .person.Params.name }}</a></h1>
+<h1 class="title"><a class="has-text-primary" href="{{.url}}#{{$anchor}}">{{ .person.Params.name }}</a></h1>
 <h2 class="subtitle">{{ .person.Params.sector }}</h1>
    
 <p>
-    <a href="mailto:{{.person.Params.email}}">
+    <a href="mailto:{{.person.Params.email}}" class="has-text-primary">
         <i class="fas fa-envelope"></i> {{ .person.Params.email }}
     </a>
 </p>
 <p>
-    <a href="tel:{{.person.Params.cell}}">
+    <a href="tel:{{.person.Params.cell}}" class="has-text-primary">
         <i class="fas fa-phone-alt"></i> {{ .person.Params.cell }}
     </a>
 </p>
