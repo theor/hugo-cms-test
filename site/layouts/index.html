@@ -35,7 +35,7 @@
         Voir toutes les actualités
       </a>
         <div class="tile is-ancestor">
-            {{ range (first 3 (where .Site.RegularPages.ByPublishDate.Reverse "Section" "post")) }}
+            {{ range (first 3 (where .Site.RegularPages.ByPublishDate.Reverse "Section" "actualites")) }}
             <div class="tile is-parent">
                 <article class="tile is-child news-preview is-spaced p-4" style="display:flex; flex-direction: column;">
                       <p class="subtitle"><a class="has-text-primary" href="{{ .RelPermalink }}">{{ .Params.title }}</a></p>

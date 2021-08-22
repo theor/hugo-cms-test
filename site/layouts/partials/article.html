@@ -1,0 +1,50 @@
+
+
+    {{ if not (default false .preview) }}
+    <div class="block">
+      <a href="/actualites"><i class="fas fa-chevron-left"></i> Retour aux actualités</a>
+    </div>
+    {{ end}}
+<div class="card article">
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content has-text-centered">
+          <p class="title article-title">
+            {{ .article.Title }}
+          </p>
+          <p class="subtitle is-6 article-subtitle">{{ .article.Date | time.Format "02/01/2006" }}</p>
+        </div>
+      </div>
+      <div class="content article-body">
+        {{ .article.Summary }}
+    </div>
+    {{ if default false .preview }}
+    <div class="block has-text-centered">
+      <a href="{{ .article.RelPermalink }}"><i class="fas fa-chevron-right"></i> Lire la suite</a>
+    </div>
+    {{ else }}
+    <nav class="level">
+      <!-- Left side -->
+      <div class="level-left">
+          {{ if .article.NextInSection }}
+        <p class="level-item">
+          <a class="" href="{{ .article.NextInSection.Permalink }}">
+            <i class="fas fa-chevron-left"></i>
+            {{ .article.NextInSection.Title  | truncate 40 "..." }}</a>
+          </p>
+            {{ end }}
+         
+      </div>
+    
+      <!-- Right side -->
+      <div class="level-right">
+        {{ if .article.PrevInSection }}
+         <a class="" href="{{ .article.PrevInSection.Permalink }}">
+          {{ .article.PrevInSection.Title | truncate 40 "..." }}</a>
+          <i class="fas fa-chevron-right"></i>
+        {{end}}
+      </div>
+    </nav>
+    {{ end }}
+    </div>
+  </div>
