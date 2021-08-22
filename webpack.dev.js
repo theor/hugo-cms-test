@@ -1,7 +1,7 @@
 const merge = require("webpack-merge");
 const path = require("path");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const common = require("./webpack.common");
 
@@ -10,7 +10,7 @@ module.exports = merge(common, {
 
   output: {
     filename: "[name].js",
-    chunkFilename: "[id].css"
+    // chunkFilename: "[id].css"
   },
 
   devServer: {
@@ -32,9 +32,9 @@ module.exports = merge(common, {
         "site/data/webpack.json"
       ]}),
 
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css"
-    })
+    // new MiniCssExtractPlugin({
+    //   filename: "[name].css",
+    //   chunkFilename: "[id].css"
+    // })
   ]
 });

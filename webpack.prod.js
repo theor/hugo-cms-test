@@ -10,7 +10,7 @@ module.exports = merge(common, {
 
   output: {
     filename: "[name].[hash:5].js",
-    chunkFilename: "[id].[hash:5].css"
+    // chunkFilename: "[id].[hash:5].css"
   },
 
   optimization: {
@@ -21,10 +21,10 @@ module.exports = merge(common, {
         sourceMap: true,
         exclude: /\/node_modules\//,
       }),
-      new MiniCssExtractPlugin({
-        filename: "[name].[hash:5].css",
-        chunkFilename: "[id].[hash:5].css"
-      }),
+      // new MiniCssExtractPlugin({
+      //   filename: "[name].[hash:5].css",
+      //   chunkFilename: "[id].[hash:5].css"
+      // }),
       new OptimizeCSSAssetsPlugin({}),
     ]
   }
