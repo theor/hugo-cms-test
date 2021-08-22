@@ -1,8 +1,8 @@
 ---
-title: "Table ronde sur le métier de politicien : Jacques Létourneau en parle avec Alain Gravel à son émission Les faits d’abords"
+title: "Table ronde sur le métier de politicien : Jacques Létourneau en parle
+  avec Alain Gravel à son émission Les faits d’abords"
 date: 2021-07-23T15:04:10.000Z
-
-image: /img/blog-chemex.jpg
+image: img/chrome_djqqn166fj-300x300-1-.png
 is_post: true
 ---
 

@@ -43,10 +43,14 @@ $text-strong: findColorInvert($grey-darker);
     width: 60px;
     height: 60px;
     margin-left: -30px;
-    border: 5px solid #ccc;
+    border: 2px solid $secondary;
     border-radius: 50%;
 }
+.media {
+  flex-direction: column;
+}
 .media-center {
+  align-self: center;
   display: block;
   margin-bottom: 1rem;
 }

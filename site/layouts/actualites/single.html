@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+<section class="section has-background-light">
+    <div class="container is-max-widescreen">
+
+        {{ partial "article.html" (dict "article" . "preview" false) }}
+</div>
+</section>
+{{ end }}
