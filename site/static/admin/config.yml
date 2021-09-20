@@ -5,6 +5,14 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "plateforme"
+    label: "Plateforme"
+    files:
+      - file: "site/content/plateforme.md"
+        label: "plateforme"
+        name: "plateforme"
+        fields:
+          - {label: Content, name: body, widget: "markdown"}
   - name: "pages"
     label: "Config"
     files:
