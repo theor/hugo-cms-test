@@ -1,37 +1,106 @@
 <!DOCTYPE html>
 <html>
+    <!-- <base target="_parent"> -->
 {{- partial "head.html" . -}}
 {{- partial "embed.html" . -}}
 
 <body>
-    <link rel="stylesheet" id="astra-google-fonts-css" href="https://fonts.googleapis.com/css?family=Work+Sans%3A400%2C&amp;display=fallback&amp;ver=3.4.7" media="all">
+    <link rel="stylesheet" id="astra-google-fonts-css"
+        href="https://fonts.googleapis.com/css?family=Work+Sans%3A400%2C&amp;display=fallback&amp;ver=3.4.7"
+        media="all">
     <style>
+        body,html {
+            width: 100%;
+            height: 100%;
+    overflow:hidden;
+}
         * {
+            --primary-color: #262262;
+            --secondary-color: #FFB512;
             font-family: "Work Sans", sans-serif;
         }
+
+        .text-box {
+            background-color: #f5f5f5;
+            display: inline-block;
+            border: solid 2px var(--primary-color);
+            border-radius: 2px;
+            box-shadow: 2px 2px 5px #888888;
+            padding: 8px;
+            margin-bottom: 10px;
+
+        }
+
+        /* em {
+            
+            box-shadow: 2px 2px 5px #888888;
+            font-style: normal;
+        } */
+
         .axe {
             background-color: #f5f5f5;
             /* border: solid 1px red; */
             display: flex;
             flex-direction: row;
-            margin: 20px 20px;
+            margin: 20px 4px;
             box-shadow: 2px 2px 5px #888888;
         }
 
-        .axe:nth-of-type(odd) {
-            flex-direction: row-reverse;
+        .keywords {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .keyword {
+            background-color: var(--primary-color);
+            color: #f5f5f5;
+            border: solid 1px transparent;
+            font-style: bold;
+            text-transform: uppercase;
+            border-radius: 55px;
+            padding: 5px 8px;
+            font-size: 14px;
+            margin: 2px 3px;
         }
 
-        .axe div {
+        @media only screen and (min-width: 600px) {
+            .axe:nth-of-type(odd) {
+                flex-direction: row-reverse;
+            }
+
+            .axe img {
+                background-color: #f5f5f5;
+                object-fit: cover;
+                flex: 1;
+                width: 50%;
+                    /* width: 200px; */
+            }
+
+            .axe div.content {
+                /* width: 50%; */
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .axe {
+                flex-direction: column-reverse;
+            }
+            .axe img {
+                /* height: 200px; */
+                object-fit: scale-down;
+            }
+        }
+
+        .axe div.content {
 
             padding: 30px 50px;
             flex: 1;
-            flex-grow: 3;
+            flex-grow: 1;
         }
 
         .axe h1 {
             font-weight: bold;
             font-size: 2rem;
+            margin-bottom: 0.2em;
         }
 
         .axe ul {
@@ -40,24 +109,35 @@
             list-style-type: circle;
         }
 
-        .axe img {
-            background-color: #f5f5f5;
-            object-fit: cover;
-            flex: 1;
-            width: 50%
-            /* width: 200px; */
+        .summary {
+
+            list-style: none;
+            padding: 0px 40px;
+            font-size: 2em;
         }
     </style>
     <!-- {{- partial "header.html" . -}} -->
+    <ul class="summary">
+        {{ range .Params.axes }}
+        <li><a href="plateforme/#{{.titre | urlize}}">{{.titre}}</a></li>
+        {{ end }}
+    </ul>
     <ul>
         {{ range .Params.axes }}
         <li class="axe">
-            <div>
-                <h1><a id="{{ .titre | urlize }}" href="#{{ .titre | urlize }}">{{ .titre }}</a></h1>
+            <div class="content">
+                <a name="{{ .titre | urlize }}"></a>
+                <h1><a name="{{ .titre | urlize }}" href="plateforme/#{{ .titre | urlize }}">{{ .titre }}</a></h1>
+                <div class="keywords">
+                {{ range .keywords }}
+                <span class="keyword">{{ . }}</span>
+                {{ end }}
+            </div>
                 <p>{{ .description | markdownify }}</p>
             </div>
-            <img
-                src="https://external.fyhu2-1.fna.fbcdn.net/safe_image.php?d=AQGSEWIMBsZ_MFOQ&w=540&h=282&url=https%3A%2F%2Fimages.radio-canada.ca%2Fv1%2Fici-info%2F16x9%2Flegumes-fruits-generique-marche-public-plateau-2.JPG&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_oe=6eb75&_nc_sid=06c271&ccb=3-5&_nc_hash=AQHOXKwjV8odQ04t">
+            <!-- <img src="https://external.fyhu2-1.fna.fbcdn.net/safe_image.php?d=AQGSEWIMBsZ_MFOQ&w=540&h=282&url=https%3A%2F%2Fimages.radio-canada.ca%2Fv1%2Fici-info%2F16x9%2Flegumes-fruits-generique-marche-public-plateau-2.JPG&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_oe=6eb75&_nc_sid=06c271&ccb=3-5&_nc_hash=AQHOXKwjV8odQ04t"> -->
+            <img src="{{ .image }}">
+
         </li>
         {{ end }}
     </ul>
