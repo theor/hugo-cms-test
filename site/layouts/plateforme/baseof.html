@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
-    {{- partial "embed.html" . -}}
-    <body>
-        <!-- {{- partial "header.html" . -}} -->
-        {{- block "main" . }}{{- end }}
-        <!-- {{- partial "footer.html" . -}} -->
-    </body>
+{{- partial "head.html" . -}}
+{{- partial "embed.html" . -}}
+
+<body>
+    <link rel="stylesheet" id="astra-google-fonts-css" href="https://fonts.googleapis.com/css?family=Work+Sans%3A400%2C&amp;display=fallback&amp;ver=3.4.7" media="all">
+    <style>
+        * {
+            font-family: "Work Sans", sans-serif;
+        }
+        .axe {
+            background-color: #f5f5f5;
+            /* border: solid 1px red; */
+            display: flex;
+            flex-direction: row;
+            margin: 20px 20px;
+            box-shadow: 2px 2px 5px #888888;
+        }
+
+        .axe:nth-of-type(odd) {
+            flex-direction: row-reverse;
+        }
+
+        .axe div {
+
+            padding: 30px 50px;
+            flex: 1;
+            flex-grow: 3;
+        }
+
+        .axe h1 {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .axe ul {
+            padding-left: 19px;
+            margin: 14px 0;
+            list-style-type: circle;
+        }
+
+        .axe img {
+            background-color: #f5f5f5;
+            object-fit: cover;
+            flex: 1;
+            width: 50%
+            /* width: 200px; */
+        }
+    </style>
+    <!-- {{- partial "header.html" . -}} -->
+    <ul>
+        {{ range .Params.axes }}
+        <li class="axe">
+            <div>
+                <h1><a id="{{ .titre | urlize }}" href="#{{ .titre | urlize }}">{{ .titre }}</a></h1>
+                <p>{{ .description | markdownify }}</p>
+            </div>
+            <img
+                src="https://external.fyhu2-1.fna.fbcdn.net/safe_image.php?d=AQGSEWIMBsZ_MFOQ&w=540&h=282&url=https%3A%2F%2Fimages.radio-canada.ca%2Fv1%2Fici-info%2F16x9%2Flegumes-fruits-generique-marche-public-plateau-2.JPG&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_oe=6eb75&_nc_sid=06c271&ccb=3-5&_nc_hash=AQHOXKwjV8odQ04t">
+        </li>
+        {{ end }}
+    </ul>
+    {{- block "main" . }}{{- end }}
+    <!-- {{- partial "footer.html" . -}} -->
+    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {{ $script := .Site.Data.webpack.main }}
+    {{ with $script.js }}
+    <script src="{{ relURL . }}"></script>
+    {{ end }}
+</body>
+
 </html>

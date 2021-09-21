@@ -12,6 +12,14 @@ collections: # A list of collections the CMS should be able to edit
         label: "plateforme"
         name: "plateforme"
         fields:
+          - label: Axes
+            name: axes
+            widget: "list"
+            summary: "{{fields.titre}}"
+            fields:
+              - { label: Nom, name: titre, widget: string }
+              - { label: "Sous titre", name: titre2, widget: string }
+              - { label: Description, name: description, widget: markdown }
           - {label: Content, name: body, widget: "markdown"}
   - name: "pages"
     label: "Config"
