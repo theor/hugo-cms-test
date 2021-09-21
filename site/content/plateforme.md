@@ -3,7 +3,7 @@ type: plateforme
 axes:
   - titre: Leadership
     titre2: Se donner un leader rassembleur et expérimenté
-    image: img/jacques.png
+    image: /img/jacques.png
     description: "- Jacques Létourneau à la mairie
 
       - Un leader rassembleur et expérimenté
@@ -11,7 +11,7 @@ axes:
       - Une équipe compétente et dévouée"
   - titre: Finances
     titre2: Avoir des finances responsables et une taxation prévisible
-    image: img/Plateforme_V910.png
+    image: /img/Plateforme_V910.png
     keywords:
       - Prévisibilité
       - Partage de surplus
@@ -23,7 +23,7 @@ axes:
     - Permettre le paiement du compte de taxes municipales en six versements"
   - titre: Habitation
     titre2: Diversifier l'offre en matière d'habitation et en accroître l'accessibilité
-    image: img/Plateforme_V922.jpg
+    image: /img/Plateforme_V922.jpg
     keywords:
       - Accès au logement
       - Revitalisation
@@ -35,7 +35,7 @@ axes:
     - Préserver le patrimoine et offrir un programme de rénovation bonifié"
   - titre: Relance Économique
     titre2: Supporter la relance économique
-    image: img/Plateforme_V932.png
+    image: /img/Plateforme_V932.png
     keywords:
       - revitalisation
       - marchés publics
@@ -61,7 +61,7 @@ la zone aéroportuaire de St-Hubert
       - réduction des GES
       - mobilité durable
     titre2: Jouer un rôle de leader régional dans la lutte aux changements climatiques
-    image: img/Plateforme_V940.jpg
+    image: /img/Plateforme_V940.jpg
     description: "- Construire un réseau de transport collectif électrique dans l’axe Taschereau - cégep Édouard-Montpetit
 
     - Mettre fin rapidement au déversement des eaux usées dans le fleuve avec des nouvelles infrastructures fiables
@@ -72,7 +72,7 @@ la zone aéroportuaire de St-Hubert
       - sécurité
       - accessibilité
     titre2: Améliorer la qualité de vie et offrir plus aux familles
-    image: img/Plateforme_V949.jpg
+    image: /img/Plateforme_V949.jpg
     description: "
     - Mettre la famille au cœur des préoccupations de la Ville à travers l’ensemble de ses interventions et responsabilités
   
@@ -82,7 +82,7 @@ la zone aéroportuaire de St-Hubert
     "
   - titre: Culture
     titre2: Faire rayonner la culture locale
-    image: img/Plateforme_V958.png
+    image: /img/Plateforme_V958.png
     keywords:
       - identité
       - Fierté
@@ -95,7 +95,7 @@ la zone aéroportuaire de St-Hubert
     "
   - titre: Infrastructures
     titre2: Développer nos infrastructures
-    image: img/Plateforme_V967.jpg
+    image: /img/Plateforme_V967.jpg
     keywords:
       - entretien et maintien des actifs
       - Ajout de services

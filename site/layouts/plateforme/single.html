@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<section class="section">
+
+                  <p class="title article-title">
+        {{ if .Params.image }}<img class="image is-5by1" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+        {{ .Title }}
+                  </p>
+               
+              <div class="content article-body">
+                {{ .Content }}
+            </div>
+</section>
+{{ end }}
