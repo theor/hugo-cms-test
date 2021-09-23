@@ -31,7 +31,7 @@ Pour une résidence unifamiliale moyenne, cela signifie une variation d’enviro
 {{< figure src="/img/Plateforme_V917.png" >}}
 
 {{< box >}}
-Pour donner un répit aux contribuables, Jacques Létourneau et son équipe offrira le paiement du compte de taxes municipales en six versements plutôt que quatre actuellement.
+Pour donner un répit aux contribuables, Jacques Létourneau et son équipe **offriront** le paiement du compte de taxes municipales en six versements plutôt que quatre actuellement.
 {{< /box >}}
 
 ## Partage des surplus
@@ -39,5 +39,5 @@ Pour donner un répit aux contribuables, Jacques Létourneau et son équipe offr
 {{< figure src="/img/Plateforme_V916.jpg" >}}
 
 {{< box >}}
-Le chef d’Action Longueuil possède une grande expérience de gestionnaire d’importants  portefeuilles. Une administration dirigée par Jacques Létourneau sera responsable, viable et dynamique. De plus, Action Longueuil s’engage à redistribuer une partie des surplus budgétaire annuels aux contribuables, sous la forme d’ajout de services. Cette façon de faire permettra de partager les bénéfices de la bonne gestion financière de la ville avec tous les citoyen.ne.s
+Le chef d’Action Longueuil possède une grande expérience de gestionnaire d’importants  portefeuilles. Une administration dirigée par Jacques Létourneau sera responsable, viable et dynamique. De plus, Action Longueuil s’engage à redistribuer une partie des surplus budgétaire annuels aux contribuables, sous la forme d’ajout de services. Cette façon de faire permettra de partager les bénéfices de la bonne gestion financière de la **V**ille avec tous les **citoyen-ne-s**.
 {{< /box >}}
