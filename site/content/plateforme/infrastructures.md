@@ -43,7 +43,7 @@ Un parc à chiens est un terrain clôturé où les chiens peuvent courir libreme
 
 Actuellement, le territoire de Longueuil comprend 4 parcs canins clôturés où la laisse n'est pas obligatoire dans l’aire d'exercice. Étant donné le nombre grandissant de citoyens qui possèdent un chien, ce nombre est nettement insuffisant.
 {{< box >}}
-L’équipe d’Action Longueuil s’engage à implanter de nouveaux parcs  à chiens afin de desservir l’ensemble des secteurs de Longueuil.
+L’équipe d’Action Longueuil s’engage à implanter de nouveaux parcs à chiens afin de desservir l’ensemble des secteurs de Longueuil.
 {{< /box >}}
 
 {{< figure src="/img/Plateforme_V90.png" >}}
