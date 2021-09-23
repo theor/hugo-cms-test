@@ -7,60 +7,69 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "plateforme"
     label: "Plateforme"
-    files:
-      - file: "site/content/plateforme.md"
-        label: "plateforme"
-        name: "plateforme"
-        fields:
-          - label: Axes
-            name: axes
-            widget: "list"
-            summary: "{{fields.titre}}"
-            fields:
-              - { label: Nom, name: titre, widget: string }
-              - { label: "Sous titre", name: titre2, widget: string }
-              - { label: Description, name: description, widget: markdown }
-          - {label: Content, name: body, widget: "markdown"}
-  - name: "pages"
-    label: "Config"
-    files:
-      - file: "site/config.toml"
-        label: "Global"
-        name: "home"
-        fields:
-          - label: Params
-            name: params
-            widget: object
-            fields:
-              - {label: Téléphone, name: telephone, widget: string, required: true, default: ""}
-              - {label: Lien Faire un don, name: link_don, widget: string, required: true, default: ""}
-              - {label: Lien Devenir member, name: link_member, widget: string, required: true, default: ""}
-              - {label: Lien Volontaire, name: link_volunteer, widget: string, required: true, default: ""}
-              - {label: Adresse, name: address, widget: text, required: true, default: ""}
-  - name: "actualites" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Actualités" # Used in the UI, ie.: "New Post"
-    folder: "site/content/actualites" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    filter: {field: "is_post", value: true}
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      # - {label: "Intro Blurb", name: "description", widget: "text", required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "is post", name: "is_post", widget: "hidden", default: true}
-  - name: "candidats"
-    label: "Candidats"
-    slug: "{{name}}"
-    folder: "site/content/elus_candidats" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    delete: true
+    folder: "site/content/plateforme"
+    editor:
+      preview: false
     fields:
-      - {label: "Nom", name: "name", widget: "string"}
-      - {label: "Arrondissement", name: "sector", widget: "string"}
-      - {label: "Cell", name: "cell", widget: "string"}
-      - {label: "Email", name: "email", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Elu", name: "elu", widget: "boolean", required: false}
-      - {label: "Candidat", name: "candidat", widget: "boolean", required: false}
+      - { label: Nom, name: titre, widget: string }
+      - { label: "Sous titre", name: titre2, widget: string }
+      - { label: Description, name: description, widget: markdown }
       - {label: "Body", name: "body", widget: "markdown"}
+  #   create: true # Allow users to create new documents in this collection
+  #   delete: true
+    # files:
+    #   - file: "site/content/plateforme.md"
+    #     label: "plateforme"
+    #     name: "plateforme"
+    #     fields:
+    #       - label: Axes
+    #         name: axes
+    #         widget: "list"
+    #         summary: "{{fields.titre}}"
+    #         fields:
+    #           - { label: Nom, name: titre, widget: string }
+    #           - { label: "Sous titre", name: titre2, widget: string }
+    #           - { label: Description, name: description, widget: markdown }
+    #       - {label: Content, name: body, widget: "markdown"}
+  # - name: "pages"
+  #   label: "Config"
+  #   files:
+  #     - file: "site/config.toml"
+  #       label: "Global"
+  #       name: "home"
+  #       fields:
+  #         - label: Params
+  #           name: params
+  #           widget: object
+  #           fields:
+  #             - {label: Téléphone, name: telephone, widget: string, required: true, default: ""}
+  #             - {label: Lien Faire un don, name: link_don, widget: string, required: true, default: ""}
+  #             - {label: Lien Devenir member, name: link_member, widget: string, required: true, default: ""}
+  #             - {label: Lien Volontaire, name: link_volunteer, widget: string, required: true, default: ""}
+  #             - {label: Adresse, name: address, widget: text, required: true, default: ""}
+  # - name: "actualites" # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: "Actualités" # Used in the UI, ie.: "New Post"
+  #   folder: "site/content/actualites" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   filter: {field: "is_post", value: true}
+  #   fields: # The fields each document in this collection have
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     - {label: "Image", name: "image", widget: "image", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "is post", name: "is_post", widget: "hidden", default: true}
+  # - name: "candidats"
+  #   label: "Candidats"
+  #   slug: "{{name}}"
+  #   folder: "site/content/elus_candidats" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   delete: true
+  #   fields:
+  #     - {label: "Nom", name: "name", widget: "string"}
+  #     - {label: "Arrondissement", name: "sector", widget: "string"}
+  #     - {label: "Cell", name: "cell", widget: "string"}
+  #     - {label: "Email", name: "email", widget: "string"}
+  #     - {label: "Image", name: "image", widget: "image", required: false}
+  #     - {label: "Elu", name: "elu", widget: "boolean", required: false}
+  #     - {label: "Candidat", name: "candidat", widget: "boolean", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown"}

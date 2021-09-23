@@ -4,6 +4,7 @@ languageLang = "fr"
 title = "Homepage"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 summaryLength = 15
+removePathAccents = true
 
 [params]
 telephone = "(450) 332-2245"
