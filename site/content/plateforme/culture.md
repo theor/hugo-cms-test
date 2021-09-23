@@ -40,7 +40,7 @@ Depuis toujours, Longueuil est reconnue comme une ville accueillante et animée.
 
 {{< figure src="/img/Plateforme_V965.png" >}}
 
-Pour que la culture soit riche, diversifiée et représentative des trois arrondissements, il est important que celle-ci puisse se déployer aux quatre coins de la Ville.
+Pour que la culture soit riche, diversifiée et représentative des trois arrondissements, il est important que celle-ci puisse se déployer aux quatre coins de la **v**ille.
 
 {{< box >}}
 L’équipe d’Action Longueuil s’engage à confier aux arrondissements les budgets nécessaires pour animer leurs quartiers, aménager des espaces de rencontres et créer une identité qui leur est propre.
