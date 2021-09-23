@@ -3,7 +3,7 @@ backend:
 local_backend: true
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
-
+locale: "fr"
 collections: # A list of collections the CMS should be able to edit
   - name: "plateforme"
     label: "Plateforme"
