@@ -17,7 +17,7 @@ Une ville de l’ampleur de Longueuil se doit d’offrir à ses citoyens un év�
 {{< figure src="/img/Plateforme_V966.jpg" >}}
 
 {{< box >}}
-Action Longueuil **É**quipe Jacques  Létourneau  s’engage à redonner à Longueuil un grand festival qui permettra d’offrir aux citoyens un événement festif et rassembleur et faire la renommée de notre Ville.
+Action Longueuil **É**quipe Jacques  Létourneau  s’engage à redonner à Longueuil un grand festival qui permettra d’offrir aux citoyens un événement festif et rassembleur et **fera** la renommée de notre **v**ille.
 {{< /box >}}
 
 ## Identité
