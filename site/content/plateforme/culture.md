@@ -31,7 +31,7 @@ Il vise à développer, promouvoir et faire rayonner les arts afin d’offrir à
 Pour réaliser pleinement ces objectifs, il est nécessaire d’investir encore plus pour supporter la scène artistique locale.
 
 {{< box >}}
-Jacques   Létourneau   et son équipe s’engagent à accroître le soutien financier aux artistes longueuillois en doublant le budget du Conseil des arts. Nous créerons plusieurs nouveaux espaces créatifs dans les bâtiments de la ville mis à la disposition des artistes gratuitement. 
+Jacques Létourneau et son équipe s’engagent à accroître le soutien financier aux artistes longueuillois en doublant le budget du Conseil des arts. Nous créerons plusieurs nouveaux espaces créatifs dans les bâtiments de la **V**ille mis **gratuitement** à la disposition des artistes.
 {{< /box >}}
 
 ## Fierté
