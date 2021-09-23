@@ -12,14 +12,14 @@ description: >-
 
   * Mettre fin rapidement au déversement des eaux usées dans le fleuve avec des nouvelles infrastructures fiables
 
-  * **Fournir des p**arcomètres gratuits pour toutes les voitures électriques et doubler le nombre de bornes de recharges publiques
+  * **Offrir des p**arcomètres gratuits pour toutes les voitures électriques et doubler le nombre de bornes de recharges publiques
 ---
 À Longueuil, environ 80% des émissions de CO2 sont générées par les véhicules routiers. Pour diminuer les GES, l’adoption du véhicule électrique comme mode de transport est une solution incontournable.
 
 Pour contribuer à cet objectif, la Ville peut mettre en place des mesures incitatives pour encourager la voiture électrique.
 
 {{< box >}}
-Action Longueuil équipe Jacques  Létourneau  s’engage à  doubler le nombre de bornes de recharges publiques d’ici 2024 et à offrir un congé de parcomètres en tout temps aux voitures électriques.
+Action Longueuil équipe Jacques Létourneau  s’engage à  doubler le nombre de bornes de recharges publiques d’ici 2024 et à offrir un congé de parcomètres en tout temps aux voitures électriques.
 {{< /box >}}
 
 {{< figure src="/img/Plateforme_V948.png" >}}
