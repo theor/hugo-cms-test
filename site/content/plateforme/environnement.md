@@ -2,17 +2,19 @@
 titre: Environnement
 order: 5
 keywords:
-    - réduction des GES
-    - mobilité durable
+  - réduction des GES
+  - mobilité durable
 titre2: Jouer un rôle de leader régional dans la lutte aux changements climatiques
 image: /img/Plateforme_V940.jpg
-description: "- Construire un réseau de transport collectif électrique dans l’axe Taschereau - cégep Édouard-Montpetit
+description: >-
+  * Construire un réseau de transport collectif électrique dans l’axe Taschereau
+  - cégep Édouard-Montpetit
 
-    - Mettre fin rapidement au déversement des eaux usées dans le fleuve avec des nouvelles infrastructures fiables
+  * Mettre fin rapidement au déversement des eaux usées dans le fleuve avec des nouvelles infrastructures fiables
 
-    - Parcomètres gratuits pour toutes les voitures électriques et doubler le nombre de bornes de recharges publiques"
+  * **Fournir des p**arcomètres gratuits pour toutes les voitures électriques et doubler le nombre de bornes de recharges publiques
 ---
-À Longueuil, environ 80% des émissions de CO2sont générées par les véhicules routiers. Pour diminuer les GES, l’adoption du véhicule électrique comme mode de transport est une solution incontournable.
+À Longueuil, environ 80% des émissions de CO2 sont générées par les véhicules routiers. Pour diminuer les GES, l’adoption du véhicule électrique comme mode de transport est une solution incontournable.
 
 Pour contribuer à cet objectif, la Ville peut mettre en place des mesures incitatives pour encourager la voiture électrique.
 
