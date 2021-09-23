@@ -4,21 +4,20 @@ order: 7
 titre2: Faire rayonner la culture locale
 image: /img/Plateforme_V958.png
 keywords:
-    - identité
-    - Fierté
-description: "
-    - Mettre sur pied un grand événement culturel annuel qui permettra d’offrir aux citoyens un événement festif et rassembleur
+  - identité
+  - Fierté
+description: >-2
+   - Mettre sur pied un grand événement culturel annuel qui permettra d’offrir aux citoyens un événement festif et rassembleur
+  - Doubler le financement du Conseil des arts afin de soutenir davantage d’artistes de Longueuil et créer de nouveaux espaces créatifs
 
-    - Doubler le financement du Conseil des arts afin de soutenir davantage d’artistes de Longueuil et créer de nouveaux espaces créatifs
-
-    - S’assurer que la culture et l’identité se développent dans les trois arrondissements"
+  - S’assurer que la culture et l’identité se développent dans les trois arrondissements
 ---
 Une ville de l’ampleur de Longueuil se doit d’offrir à ses citoyens un événement annuel d’envergure pour mettre en valeur les arts, la culture et le divertissement.
 
 {{< figure src="/img/Plateforme_V966.jpg" >}}
 
 {{< box >}}
-Action Longueuil équipe Jacques  Létourneau  s’engage à redonner à Longueuil un grand festival qui permettra d’offrir aux citoyens un événement festif et rassembleur et faire la renommée de notre Ville.
+Action Longueuil **É**quipe Jacques  Létourneau  s’engage à redonner à Longueuil un grand festival qui permettra d’offrir aux citoyens un événement festif et rassembleur et faire la renommée de notre Ville.
 {{< /box >}}
 
 ## Identité
@@ -46,4 +45,3 @@ Pour que la culture soit riche, diversifiée et représentative des trois arrond
 {{< box >}}
 L’équipe d’Action Longueuil s’engage à confier aux arrondissements les budgets nécessaires pour animer leurs quartiers, aménager des espaces de rencontres et créer une identité qui leur est propre.
 {{< /box >}}
-
