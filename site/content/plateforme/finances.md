@@ -4,21 +4,22 @@ order: 2
 titre2: Avoir des finances responsables et une taxation prévisible
 image: /img/Plateforme_V910.png
 keywords:
-    - Prévisibilité
-    - Partage de surplus
-description: "
-    - Ajuster le compte de taxes selon l’inflation pour les quatre années du mandat
+  - Prévisibilité
+  - Partage de surplus
+description: >-
+  * Ajuster le compte de taxes selon l’inflation pour les quatre années du
+  mandat
 
-    - Redistribuer une partie des surplus budgétaires annuels aux contribuables
+  * Redistribuer une partie des surplus budgétaires annuels aux contribuables **(Ça veut dire quoi aux contribuables? Peut-être mieux de parler de services aux contribuables)**
 
-    - Permettre le paiement du compte de taxes municipales en six versements"
+  * Permettre le paiement du compte de taxes municipales en six versements
 ---
-Entre 2010 et 2021, le compte de taxes municipales à Longueuil a connu une hausse annuelle moyenne de 2 % pour une résidence unifamiliale. Cependant, on observe que le taux d’augmentation a connu de fortes variations d’une année à l’autre.
+Entre 2010 et 2021 **à Longueuil**, le compte de taxes municipales a connu une hausse annuelle moyenne de 2 % pour une résidence unifamiliale. Cependant, on observe que le taux d’augmentation a connu de fortes variations d’une année à l’autre.
 
 {{< box >}}
-Afin d’éviter ces écarts importants, l’équipe de Jacques Létourneau adoptera un règlement qui fixera d’avance l’ajustement du compte de taxes selon l’inflation, soit environ 2 % par année pour la durée du mandat. 
+Afin d’éviter ces écarts importants, l'équipe de Jacques Létourneau adoptera un règlement qui fixera d’avance l’ajustement du compte de taxes selon l’inflation, soit environ 2 % par année pour la durée du mandat. 
 
-Le gel de taxes n’est pas une option réaliste pour une ville de la taille de Longueuil qui fait face à de nombreux défis qui nécessitent des investissements importants. 
+Le gel de taxes n’est pas une option réaliste pour une ville de la taille de Longueuil qui fait face à de nombreux défis **nécessitant** des investissements importants. 
 {{< /box >}}
 
 {{< figure src="/img/Plateforme_V919.png" >}}
