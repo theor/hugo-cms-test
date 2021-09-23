@@ -3,19 +3,18 @@ titre: Leadership
 order: 1
 titre2: Se donner un leader rassembleur et expérimenté
 image: /img/jacques.png
-description: "- Jacques Létourneau à la mairie
-
-        - Un leader rassembleur et expérimenté
-
-        - Une équipe compétente et dévouée"
+description: |-
+  - Jacques Létourneau à la mairie
+  - Un leader rassembleur et expérimenté
+  - Une équipe compétente et dévouée
 ---
-Action Longueuil est honoré de pouvoir compter
+**Le parti** Action Longueuil est honoré de pouvoir compter
 sur Jacques Létourneau à titre de candidat à la
 mairie pour l’élection municipale du 7 novembre
 prochain.
 
 Fort de ses 30 ans d’implication sociale et militante,
-Jacques Létourneau, a occupé la présidence de la
+Jacques Létourneau a occupé la présidence de la
 CSN de 2012 à 2021. Il a choisi de faire le saut en
 politique municipale longueuilloise car pour lui,
 cette nouvelle étape constitue le prolongement
@@ -27,10 +26,10 @@ gens.
 ## Expérimenté
 
 Jacques Létourneau a débuté sa carrière comme
-président du syndicat des employés de l’hôpital CharlesLemoyne, dans l’arrondissement de Greenfield Park.
+président du syndicat des employés de l’hôpital **Charles-Le Moyne**, dans l’arrondissement de Greenfield Park.
 
 Tout au long de son parcours, le chef d’Action Longueuil
-a occupé de nombreuses fonctions et il a été impliqué
+a occupé de nombreuses fonctions et a été impliqué
 dans plusieurs causes visant à défendre et à promouvoir
 les intérêts sociaux et économiques des gens d’ici.
 
@@ -61,7 +60,7 @@ dans la communauté longueuilloise.
 
 Guidé par une plateforme électorale audacieuse et
 inspirante, Jacques Létourneau et son équipe sont
-déterminés à améliorer le sort des citoyen.ne.s.
+déterminés à améliorer le sort des **citoyen-ne-s**.
 
 Le 7 novembre prochain, nous invitons tous les
 résidents des trois arrondissements à faire un choix
