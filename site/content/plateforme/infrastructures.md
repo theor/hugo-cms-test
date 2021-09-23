@@ -3,15 +3,16 @@ titre: Infrastructures
 titre2: Développer nos infrastructures
 image: /img/Plateforme_V967.jpg
 keywords:
-    - entretien et maintien des actifs
-    - Ajout de services
+  - entretien et maintien des actifs
+  - Ajout de services
 order: 8
-description: "
-    - Construire des patinoires extérieures réfrigérées. Rénover et entretenir rigoureusement le réseau de piscines et de patinoires existant
+description: >-
+  * Construire des patinoires extérieures réfrigérées. Rénover et entretenir
+  rigoureusement le réseau **existant** de piscines et de patinoires
 
-    - Doubler le budget pour le resurfaçage des rues en investissant 10 millions de dollars par année.
+  * Doubler le budget pour le resurfaçage des rues en investissant 10 millions de dollars par année
 
-    - Implanter de nouveaux parcs canins afin de desservir l’ensemble des secteurs de Longueuil"
+  * Implanter de nouveaux parcs canins afin de desservir l’ensemble des secteurs de Longueuil
 ---
 Pour contribuer à la qualité de vie et à la santé de des citoyens, il est nécessaire que la Ville puisse créer et maintenir des environnements favorables à un mode de vie physiquement actif et à une saine alimentation.
 
