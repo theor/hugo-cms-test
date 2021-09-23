@@ -1,4 +1,4 @@
-baseurl = "http://localhost:3000/"
+baseurl = "https://pedantic-mirzakhani-5592b2.netlify.app/"
 languageCode = "fr-ca"
 languageLang = "fr"
 title = "Homepage"
