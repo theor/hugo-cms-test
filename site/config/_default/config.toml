@@ -1,10 +1,15 @@
-baseurl = "https://pedantic-mirzakhani-5592b2.netlify.app/"
+# baseurl = "https://pedantic-mirzakhani-5592b2.netlify.app/"
+baseurl = "/"
 languageCode = "fr-ca"
 languageLang = "fr"
 title = "Homepage"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 summaryLength = 15
 removePathAccents = true
+[module]
+[[module.mounts]]
+source = "static/img"
+target = "assets/img"
 
 [params]
 telephone = "(450) 332-2245"
