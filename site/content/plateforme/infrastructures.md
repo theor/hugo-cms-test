@@ -32,7 +32,7 @@ Le resurfaçage des rues vise à prolonger la durée de vie utile d’une chauss
 Il s’agit d’une façon de faire qui s’avère beaucoup plus efficace et économique que la méthode manuelle, permettant de corriger une plus grande surface en offrant une homogénéité en beaucoup moins de temps.
 
 {{< box >}}
-Jacques   Létourneau   et l’équipe d’   Action Longueuil  prennent l’engagement de d   oubler le budget annuel pour le resurfaçage des rues en investissant 10 millions de dollars par année.
+Jacques Létourneau et l’équipe d’Action Longueuil prennent l’engagement de doubler le budget annuel **de** resurfaçage des rues en investissant 10 millions de dollars par année.
 {{< /box >}}
 
 ## Ajout de services
