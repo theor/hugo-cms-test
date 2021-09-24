@@ -1,5 +1,11 @@
 {{ define "main" }}
+<div class="content intro">
 <h1>Nos engagements</h1>
+<p>
+    
+{{ .Content }}
+</p>
+</div>
 <ul class="summary">
     {{ range sort (where .Site.RegularPages.ByTitle "Section" "plateforme" ) "Params.order" "asc" }}
     <li style="background-image:url({{ .Params.image | absURL }});">
