@@ -42,6 +42,11 @@
         padding: 30px;
         margin: 10px;
     }
+    .description h2 {
+        font-size: 2rem;
+        border-bottom: solid 1px var(--secondary-color);
+        font-variant: bold;
+    }
 
     .description.hidden {
         display: none;
@@ -186,6 +191,9 @@ background-blend-mode: multiply;
 input.collapse[type="checkbox"]:checked+label {
     color: red;
 }
+div.divFooter {
+ display:none;
+}
     /* tablet and desktop */
     @media only screen and (min-width: 800px) {
         .axe:nth-of-type(odd) .header {
@@ -231,6 +239,7 @@ input.collapse[type="checkbox"]:checked+label {
     }
 
     @media print {
+        .keywords { display: none; }
         .summary li {
             height: unset;
             width: unset;
@@ -242,7 +251,7 @@ input.collapse[type="checkbox"]:checked+label {
         .summary li span a {
             color: black;
         }
-        .keyword {
+        .keyword { 
             color: var(--primary-color);
             text-decoration-line: underline;
             background-color: unset;
@@ -264,9 +273,6 @@ input.collapse[type="checkbox"]:checked+label {
             height: 100px;
             margin-bottom: -100px;
         }
-        .description h2 {
-            font-size: 1.5rem;
-        }
 
         /* page-break-after works, as well */
         img {
@@ -284,6 +290,14 @@ input.collapse[type="checkbox"]:checked+label {
         .axe .header {
             flex-direction: row;
         }
+        .axe .header a {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+        }
+        .axe .header a::first-letter {
+            font-size: 3.0rem;
+            text-transform: uppercase;
+        }
 
         .axe img {
             /* height: 200px; */
@@ -291,9 +305,17 @@ input.collapse[type="checkbox"]:checked+label {
         }
 
         
-        figure:last-of-type > img {
-            width: 100%;
-        }
+        figure > img {
+            width: 80%;
+       }
+
+       /*tfoot {display: table-footer-group;}*/
+       div.divFooter {
+           font-size: 0.5em;
+        display:unset;
+        position: fixed;
+        bottom: 0;
+      }
     }
 
 </style>
