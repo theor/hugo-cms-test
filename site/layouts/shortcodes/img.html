@@ -1,0 +1,18 @@
+{{/*
+    Shamelessly stolen from 
+    https://raw.githubusercontent.com/stereobooster/dev.wtf/master/layouts/shortcodes/img.html
+    as it was on 2020-07-21
+    ... EXCEPT ...
+    ... as comment from https://dev.to/dmayo2/comment/k7fc points out,
+    it needs "the update of {{ .Get $medium }} to {{ .Get (print $medium) }} since Hugo 0.59+."
+  */}}
+  
+  {{/*
+    - https://laurakalbag.com/processing-responsive-images-with-hugo/
+    - https://mwellner.de/en/2018/10/30/image-handling-with-hugo/
+    - https://kodify.net/hugo/functions/imageconfig-function/
+    - https://addyosmani.com/blog/lazy-loading/
+  */}}
+  {{/* get file that matches the filename as specified as src="" in shortcode */}}
+
+  {{ partial "img.html" (dict "context" . "src" (.Get "src") "alt"  (.Get "alt")) }}

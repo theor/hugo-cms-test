@@ -1,7 +1,7 @@
 ---
 titre: Infrastructures
 titre2: Développer nos infrastructures
-image: /img/Plateforme_V967.jpg
+image: Plateforme_V967.jpg
 keywords:
   - entretien et maintien des actifs
   - Ajout de services
@@ -16,7 +16,7 @@ description: >-
 ---
 Pour contribuer à la qualité de vie et à la santé de des citoyens, il est nécessaire que la Ville puisse créer et maintenir des environnements favorables à un mode de vie physiquement actif et à une saine alimentation.
 
-{{< figure src="/img/Plateforme_V974.jpg" >}}
+{{< img src="Plateforme_V974.jpg" >}}
 
 {{< box >}}
 
@@ -25,7 +25,7 @@ Pour faire de Longueuil une ville encore plus saine et en santé, Action Longueu
 
 ## Maintien des actifs
 
-{{< figure src="/img/Plateforme_V972.png" >}}
+{{< img src="Plateforme_V972.png" >}}
 
 Le resurfaçage des rues vise à prolonger la durée de vie utile d’une chaussée en attendant une réfection majeure de ses infrastructures comme par exemple, la réfection des conduites d’aqueduc et d’égouts ou des trottoirs.
 
@@ -39,7 +39,7 @@ Jacques Létourneau et l’équipe d’Action Longueuil prennent l’engagement 
 
 Un parc à chiens est un terrain clôturé où les chiens peuvent courir librement. Ces parcs canins sont réservés aux chiens et aux personnes qui les accompagnent.
 
-{{< figure src="/img/Plateforme_V973.jpg" >}}
+{{< img src="Plateforme_V973.jpg" >}}
 
 Actuellement, le territoire de Longueuil comprend 4 parcs canins clôturés où la laisse n'est pas obligatoire dans l’aire d'exercice. Étant donné le nombre grandissant de citoyens qui possèdent un chien, ce nombre est nettement insuffisant.
 
@@ -47,4 +47,4 @@ Actuellement, le territoire de Longueuil comprend 4 parcs canins clôturés où 
 L’équipe d’Action Longueuil s’engage à **implanter de nouveaux parcs à chiens** afin de desservir l’ensemble des secteurs de Longueuil.
 {{< /box >}}
 
-{{< figure src="/img/Plateforme_V90.png" >}}
+{{< img src="Plateforme_V90.png" >}}

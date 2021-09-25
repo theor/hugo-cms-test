@@ -2,7 +2,7 @@
 titre: Leadership
 order: 1
 titre2: Se donner un leader rassembleur et expérimenté
-image: /img/jacques.png
+image: jacques.png
 description: |-
   - Jacques Létourneau à la mairie
   - Un leader rassembleur et expérimenté
@@ -21,7 +21,7 @@ cette nouvelle étape constitue le prolongement
 naturel et logique de son engagement envers les
 gens.
 
-{{< figure src="/img/Plateforme_V99.png" >}}
+{{< img src="Plateforme_V99.png" >}}
 
 ## Expérimenté
 
@@ -33,7 +33,7 @@ a occupé de nombreuses fonctions et a été impliqué
 dans plusieurs causes visant à défendre et à promouvoir
 les intérêts sociaux et économiques des gens d’ici.
 
-{{< figure src="/img/Plateforme_V98.png">}}
+{{< img src="Plateforme_V98.png">}}
 
 Titulaire d’un baccalauréat en histoire de l’Université de
 Sherbrooke, Jacques Létourneau a aussi assuré la

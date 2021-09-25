@@ -24,4 +24,4 @@ Chef d’action Longueuil – Équipe Jacques Létourneau
 <img  src="/img/signature.png" alt="Jacques Létourneau" class="signature">
 {{< /rawhtml >}}
 
-{{< figure src="/img/plateforme-groupe.jpg" alt="Photo de groupe" >}}
+{{< img src="plateforme-groupe.jpg" alt="Photo de groupe" >}} 

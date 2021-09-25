@@ -3,21 +3,23 @@
     Autorisé par l'agent officiel Frédéric Angers
 </div>
 <div class="content intro">
-<h1>Nos engagements</h1>
-<p>
-    
-{{ .Content }}
-</p>
+    <h1>Nos engagements</h1>
+    <p>
+
+        {{ .Content }}
+    </p>
 </div>
 <ul class="summary">
     {{ $.Scratch.Set "index" 0 }}
     {{ range sort (where .Site.RegularPages.ByTitle "Section" "plateforme" ) "Params.order" "asc" }}
+    {{- $img := (site.GetPage .Page.Section).Resources.GetMatch (printf "*%s*" .Params.image) -}}
+    {{- $img := $img.Resize "20x" -}}
     {{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
-    <li>
+    <li style="background: url(data:image/jpeg;base64,{{ $img.Content | base64Encode  }}); background-size: cover;">
         <!-- <img src="{{ .Params.image }}"> -->
         <span>
         <a href="/plateforme/#{{.Params.titre | urlize}}">{{ $.Scratch.Get "index" }}. {{.Params.titre}}</a>
-    </span>
+        </span>
     </li>
     {{ end }}
 </ul>
@@ -40,33 +42,41 @@
                 <p>{{ .Params.description | markdownify }}</p>
 
 
-                
+
                 <button class="read-more" id="{{ .Params.titre | urlize }}">Lire plus</button>
             </div>
-            <figure>
-            <img src="{{ .Params.image }}">
-            {{ if .Params.caption }}
-            <figcaption>{{ .Params.caption | markdownify }}</figcaption>
-            {{ end }}
-        </figure>
+            {{ partial "img.html" (dict "context" . "src" .Params.image) }}
         </div>
         <div class="description" id="desc-{{ .Params.titre | urlize }}">
             {{ .Content }}
         </div>
 
     </li>
-    <div class="pagebreak" ></div>
+    <div class="pagebreak"></div>
     {{ end }}
 </ul>
+<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 <script>
+    
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
+    
+ if( window.location.hash == "#print")
+    document.querySelectorAll('.lozad').forEach(x => observer.triggerLoad(x));
+                observer.triggerLoad(document.querySelector('.lozad'));
+
+
+    // if print
+
+
     jQuery(".description").addClass("hidden");
     jQuery("button.read-more").each((i, e) => {
         console.log(e);
         jQuery(e).click(() => {
             var desc = jQuery(".description#desc-" + e.id);
             console.log(e, desc[0]);
-            
-            var je =  jQuery(e);
+
+            var je = jQuery(e);
             desc.toggleClass("hidden");
         })
     });

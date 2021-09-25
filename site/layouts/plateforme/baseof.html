@@ -59,8 +59,9 @@
         line-height: 1.5em;
     }
 
-    .description figure {
+    .description .img {
         margin-bottom: 1.6em;
+        position:absolute; top: 0; bottom: 0
     }
 
     .axe {
@@ -89,6 +90,12 @@
         display: flex;
         flex-direction: row;
         border-top: solid 4px var(--primary-color);
+    }
+    .axe .header .img img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
     }
 
     .keywords {
@@ -300,8 +307,9 @@ img.signature {
         }
 
         /* page-break-after works, as well */
-        img {
-            width: 200px;
+        .img {
+            break-inside: avoid;
+            margin-bottom: 1.6em;
         }
         
         .axe {

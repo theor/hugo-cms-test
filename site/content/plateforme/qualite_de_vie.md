@@ -5,7 +5,7 @@ keywords:
   - sécurité
   - accessibilité
 titre2: Améliorer la qualité de vie et offrir plus aux familles
-image: /img/Plateforme_V949.jpg
+image: Plateforme_V949.jpg
 description: >-2
    - Mettre la famille au cœur des préoccupations de la Ville à travers l’ensemble de ses interventions et responsabilités
   - Réduire la vitesse dans les rues

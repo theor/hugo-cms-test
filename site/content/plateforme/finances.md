@@ -2,7 +2,7 @@
 titre: Finances
 order: 2
 titre2: Avoir des finances responsables et une taxation prévisible
-image: /img/Plateforme_V910.png
+image: Plateforme_V910.png
 keywords:
   - Prévisibilité
   - Partage de surplus
@@ -22,13 +22,13 @@ Afin d’éviter ces écarts importants, l'équipe de Jacques Létourneau adopte
 Le gel de taxes n’est pas une option réaliste pour une ville de la taille de Longueuil qui fait face à de nombreux défis nécessitant des investissements importants. 
 {{< /box >}}
 
-{{< figure src="/img/Plateforme_V919.png" >}}
+{{< img src="Plateforme_V919.png" >}} 
 
 ## Prévisibilité
 
 Pour une résidence unifamiliale moyenne, cela signifie une variation d’environ **60$ annuellement**. Cette mesure offrira aux citoyens de la stabilité et de la prévisibilité, ce qui les aidera à mieux planifier leur budget.
 
-{{< figure src="/img/Plateforme_V917.png" >}}
+{{< img src="Plateforme_V917.png" >}}
 
 {{< box >}}
 Pour donner un répit aux contribuables, Jacques Létourneau et son équipe offriront le paiement du compte de taxes municipales en **six versements plutôt que quatre** actuellement.
@@ -36,6 +36,7 @@ Pour donner un répit aux contribuables, Jacques Létourneau et son équipe offr
 
 ## Partage des surplus
 Le chef d’Action Longueuil possède une grande expérience de gestionnaire d’importants  portefeuilles. Une administration dirigée par Jacques Létourneau sera responsable, viable et dynamique.
+{{< img src="Plateforme_V916.jpg" >}}
 
 {{< box >}}
  Action Longueuil s’engage à redistribuer une partie des surplus budgétaire annuels aux contribuables, sous la forme d’ajout de services et d'une bonification de l'envelope du **budget participatif citoyen**. Cette façon de faire permettra de partager les bénéfices de la bonne gestion financière de la Ville avec tous les citoyen⸱ne⸱s.

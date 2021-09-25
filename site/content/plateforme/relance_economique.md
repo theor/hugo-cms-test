@@ -2,7 +2,7 @@
 titre: Relance économique
 order: 4
 titre2: Supporter la relance économique
-image: /img/Plateforme_V932.png
+image: Plateforme_V932.png
 keywords:
   - revitalisation
   - marchés publics
@@ -23,7 +23,7 @@ Nos commerces locaux et de proximité constituent une des pierres d’assise sur
 Comme maire, Jacques Létourneau  investira pour supporter la mise sur pied d'une société de développement commercial (SDC) qui permettront aux commerçants de se regrouper et de lancer des initiatives pour assurer la vitalité de leur milieu.
 {{< /box >}}
 
-{{< figure src="/img/Plateforme_V939.png" >}}
+{{< figure src="Plateforme_V939.png" >}}
 
 ## Revitalisation
 

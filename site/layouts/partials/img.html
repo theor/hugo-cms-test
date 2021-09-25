@@ -1,0 +1,86 @@
+{{ warnf "PARTIAL %#v "  . }}
+{{ $src := $.context.Page.Resources.GetMatch (printf "*%s*" .src) }}
+
+{{- if not $src -}}
+  {{- $sectionPage := site.GetPage $.context.Page.Section -}}
+  {{- $src = $sectionPage.Resources.GetMatch (printf "*%s*" .src) -}}
+  {{ warnf "SECTION %#v " $sectionPage $src $sectionPage.Resources (printf "*%s*" .src) }}
+
+  {{- if not $src -}}
+    {{ $path := printf "*%s*" $.src }}
+    {{- $src = $sectionPage.Resources.GetMatch $path -}}
+    {{ warnf "ASDASD2 %#v "  $path $src }}
+  {{- end -}}
+{{- end -}}
+  
+{{ warnf "PARTIAL LOG %s" . }}
+{{ warnf "PARTIAL Page %#v" ($.context.Page ) }}
+{{ warnf "PARTIAL Src %#v" ($src ) }}
+
+{{ $lqipw := default "20x" }}
+  {{ $tinyw := default "500x" }}
+  {{ $smallw := default "800x" }}
+  {{ $mediumw := default "1200x" }}
+  {{ $largew := default "1500x" }}
+  
+  {{/* resize the src image to the given sizes */}}
+  
+  {{ $lqip := $src.Resize $lqipw }}
+  {{ $tiny := $src.Resize $tinyw }}
+  {{ $small := $src.Resize $smallw }}
+  {{ $medium := $src.Resize $mediumw }}
+  {{ $large := $src.Resize $largew }}
+  
+  {{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
+  {{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+  
+  {{ $img := imageConfig ($src.RelPermalink | printf "content/%s" ) }}
+  
+  <div class="img" style="position:relative; max-width: {{$img.Width}}px; background: url(data:image/jpeg;base64,{{ $lqip.Content | base64Encode  }}); background-size: cover;">
+    <div style="position:absolute; padding-bottom: {{ div (mul $img.Height 100.0) $img.Width }}%; "></div>
+    <img style=""
+      class="lozad"
+      data-sizes="auto"
+      data-srcset='
+      {{ if ge $src.Width "500" }}
+        {{ with $tiny.Permalink }}{{.}} 500w{{ end }}
+      {{ end }}
+      {{ if ge $src.Width "800" }}
+        {{ with $small.Permalink }}, {{.}} 800w{{ end }}
+      {{ end }}
+      {{ if ge $src.Width "1200" }}
+        {{ with $medium.Permalink }}, {{.}} 1200w{{ end }}
+      {{ end }}
+      {{ if ge $src.Width "1500" }}
+        {{ with $large.Permalink }}, {{.}} 1500w {{ end }}
+      {{ end }}'
+    
+        data-src="{{ $src.Permalink }}"
+      width="100%" height="{{ div (mul $img.Height 100.0) $img.Width }}%"
+      {{ with .alt }}alt='{{.}}'{{ end }}>
+    <noscript>
+      <img
+        loading="lazy"
+        {{ with .sizes }}sizes='{{.}}'{{ else }}{{ end }}
+        srcset='
+        {{ if ge $src.Width "500" }}
+          {{ with $tiny.Permalink }}{{.}} 500w{{ end }}
+        {{ end }}
+        {{ if ge $src.Width "800" }}
+          {{ with $small.Permalink }}, {{.}} 800w{{ end }}
+        {{ end }}
+        {{ if ge $src.Width "1200" }}
+          {{ with $medium.Permalink }}, {{.}} 1200w{{ end }}
+        {{ end }}
+        {{ if ge $src.Width "1500" }}
+          {{ with $large.Permalink }}, {{.}} 1500w {{ end }}
+        {{ end }}'
+        {{ if $medium }}
+          src="{{ $medium.Permalink }}"
+        {{ else }}
+          src="{{ $src.Permalink }}"
+        {{ end }}
+        width="{{ $img.Width }}" height="{{ $img.Height }}"
+        {{ with .alt }}alt='{{.}}'{{ end }}>
+    </noscript>
+  </div>
