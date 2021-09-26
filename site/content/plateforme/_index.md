@@ -21,7 +21,7 @@ Jacques Létourneau, Candidat à la mairie de Longueuil
 Chef d’action Longueuil – Équipe Jacques Létourneau
 
 {{< rawhtml >}}
-<img  src="/plateforme/signature.png" alt="Jacques Létourneau" class="signature">
+<img class="signature lozad" data-src="/plateforme/signature.png" alt="Jacques Létourneau">
 {{< /rawhtml >}}
 
 {{< img src="plateforme-groupe.jpg" alt="Photo de groupe" >}} 
