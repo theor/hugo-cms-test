@@ -27,7 +27,7 @@ Pour permettre à Longueuil d’aller plus loin en matière d’accessibilité u
 
 ## Sécurité dans nos quartiers
 
-{{< figure src="/img/Plateforme_V956.png" >}}
+{{< img src="Plateforme_V956.png" >}}
 
 Pour limiter la vitesse dans nos rues et **rendre nos quartiers plus sécuritaires**, de nouvelles solutions doivent être déployées. En outre, il est nécessaire de revoir les aménagements aux endroits les plus problématiques afin de diminuer les excès de vitesse.
 

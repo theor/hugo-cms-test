@@ -23,7 +23,7 @@ Nos commerces locaux et de proximité constituent une des pierres d’assise sur
 Comme maire, Jacques Létourneau  investira pour supporter la mise sur pied d'une société de développement commercial (SDC) qui permettront aux commerçants de se regrouper et de lancer des initiatives pour assurer la vitalité de leur milieu.
 {{< /box >}}
 
-{{< figure src="Plateforme_V939.png" >}}
+{{< img src="Plateforme_V939.png" >}}
 
 ## Revitalisation
 
@@ -49,7 +49,7 @@ Depuis plusieurs années, le secteur de l'aéronautique joue un rôle clé dans 
 
 À ce titre, l’aéroport de Saint-Hubert constitue un atout sur lequel il faut capitaliser, notamment en mettant l’accent sur les nouvelles technologies.
 
-{{< figure src="/img/1280px-Montréal-Saint-Hubert_Airport.jpg" attr="Crédit [husseinabdallah](https://www.flickr.com/people/husseinabdallah/)" >}}
+{{< img src="1280px-Montreal-Saint-Hubert_Airport.jpg" attr="Crédit [husseinabdallah](https://www.flickr.com/people/husseinabdallah/)" >}}
 
 {{< box >}}
 Jacques  Létourneau  et son équipe s’engagent à implanter un pôle technologique dans la zone aéroportuaire afin que soit développé, ici à Longueuil, l’avion du futur, soit un aéronef **100% électrique** à faible émission polluante et sonore.
