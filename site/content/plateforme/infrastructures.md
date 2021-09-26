@@ -8,7 +8,7 @@ keywords:
 order: 8
 description: >-
   * Construire des patinoires extérieures réfrigérées. Rénover et entretenir
-  rigoureusement le réseau **existant** de piscines et de patinoires
+  rigoureusement le réseau existant de piscines et de patinoires
 
   * Doubler le budget pour le resurfaçage des rues en investissant 10 millions de dollars par année
 
@@ -32,7 +32,7 @@ Le resurfaçage des rues vise à prolonger la durée de vie utile d’une chauss
 Il s’agit d’une façon de faire qui s’avère beaucoup plus efficace et économique que la méthode manuelle, permettant de corriger une plus grande surface en offrant une homogénéité en beaucoup moins de temps.
 
 {{< box >}}
-Jacques Létourneau et l’équipe d’Action Longueuil prennent l’engagement de doubler le budget annuel **de** resurfaçage des rues en investissant 10 millions de dollars par année.
+Jacques Létourneau et l’équipe d’Action Longueuil prennent l’engagement de **doubler le budget annuel de resurfaçage des rues** en investissant 10 millions de dollars par année.
 {{< /box >}}
 
 ## Ajout de services
@@ -42,8 +42,9 @@ Un parc à chiens est un terrain clôturé où les chiens peuvent courir libreme
 {{< figure src="/img/Plateforme_V973.jpg" >}}
 
 Actuellement, le territoire de Longueuil comprend 4 parcs canins clôturés où la laisse n'est pas obligatoire dans l’aire d'exercice. Étant donné le nombre grandissant de citoyens qui possèdent un chien, ce nombre est nettement insuffisant.
+
 {{< box >}}
-L’équipe d’Action Longueuil s’engage à implanter de nouveaux parcs à chiens afin de desservir l’ensemble des secteurs de Longueuil.
+L’équipe d’Action Longueuil s’engage à **implanter de nouveaux parcs à chiens** afin de desservir l’ensemble des secteurs de Longueuil.
 {{< /box >}}
 
 {{< figure src="/img/Plateforme_V90.png" >}}

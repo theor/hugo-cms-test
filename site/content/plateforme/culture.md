@@ -17,7 +17,7 @@ Une ville de l’ampleur de Longueuil se doit d’offrir à ses citoyens un év�
 {{< figure src="/img/Plateforme_V966.jpg" >}}
 
 {{< box >}}
-Action Longueuil **É**quipe Jacques  Létourneau  s’engage à redonner à Longueuil un grand festival qui permettra d’offrir aux citoyens un événement festif et rassembleur et **fera** la renommée de notre **v**ille.
+Action Longueuil Équipe Jacques  Létourneau  s’engage à redonner à Longueuil un grand festival qui permettra d’offrir aux citoyens un événement festif et rassembleur et fera la renommée de notre ville.
 {{< /box >}}
 
 ## Identité
@@ -31,7 +31,7 @@ Il vise à développer, promouvoir et faire rayonner les arts afin d’offrir à
 Pour réaliser pleinement ces objectifs, il est nécessaire d’investir encore plus pour supporter la scène artistique locale.
 
 {{< box >}}
-Jacques Létourneau et son équipe s’engagent à accroître le soutien financier aux artistes longueuillois en doublant le budget du Conseil des arts. Nous créerons plusieurs nouveaux espaces créatifs dans les bâtiments de la **V**ille mis **gratuitement** à la disposition des artistes.
+Jacques Létourneau et son équipe s’engagent à accroître le soutien financier aux artistes longueuillois en **doublant le budget du Conseil des arts**. Nous créerons plusieurs nouveaux espaces créatifs dans les bâtiments de la Ville mis gratuitement à la disposition des artistes.
 {{< /box >}}
 
 ## Fierté
@@ -40,8 +40,8 @@ Depuis toujours, Longueuil est reconnue comme une ville accueillante et animée.
 
 {{< figure src="/img/Plateforme_V965.png" >}}
 
-Pour que la culture soit riche, diversifiée et représentative des trois arrondissements, il est important que celle-ci puisse se déployer aux quatre coins de la **v**ille.
+Pour que la culture soit riche, diversifiée et représentative des trois arrondissements, il est important que celle-ci puisse se déployer aux quatre coins de la ville.
 
 {{< box >}}
-L’équipe d’Action Longueuil s’engage à confier aux arrondissements les budgets nécessaires pour animer leurs quartiers, aménager des espaces de rencontres et créer une identité qui leur est propre.
+L’équipe d’Action Longueuil s’engage à **confier aux arrondissements les budgets nécessaires** pour animer leurs quartiers, aménager des espaces de rencontres et créer une identité qui leur est propre.
 {{< /box >}}

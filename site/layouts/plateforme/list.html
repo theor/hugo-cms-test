@@ -10,11 +10,13 @@
 </p>
 </div>
 <ul class="summary">
+    {{ $.Scratch.Set "index" 0 }}
     {{ range sort (where .Site.RegularPages.ByTitle "Section" "plateforme" ) "Params.order" "asc" }}
-    <li style="background-image:url({{ .Params.image | absURL }});">
+    {{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
+    <li>
         <!-- <img src="{{ .Params.image }}"> -->
         <span>
-        <a href="/plateforme/#{{.Params.titre | urlize}}">{{.Params.titre}}</a>
+        <a href="/plateforme/#{{.Params.titre | urlize}}">{{ $.Scratch.Get "index" }}. {{.Params.titre}}</a>
     </span>
     </li>
     {{ end }}
@@ -28,8 +30,8 @@
             <div class="content">
                 <a name="{{ .Params.titre | urlize }}"></a>
                 <h1>
-                    <a name="{{ .Params.titre | urlize }}" href="/plateforme/#{{ .Params.titre | urlize }}">{{ $.Scratch.Get "index" }}.  {{
-                        .Params.titre }}</a></h1>
+                    <a name="{{ .Params.titre | urlize }}" href="/plateforme/#{{ .Params.titre | urlize }}">{{ $.Scratch.Get "index" }}.  {{ .Params.titre }}</a>
+                </h1>
                 <div class="keywords">
                     {{ range .Params.keywords }}
                     <span class="keyword">{{ . }}</span>
@@ -41,7 +43,12 @@
                 
                 <button class="read-more" id="{{ .Params.titre | urlize }}">Lire plus</button>
             </div>
+            <figure>
             <img src="{{ .Params.image }}">
+            {{ if .Params.caption }}
+            <figcaption>{{ .Params.caption | markdownify }}</figcaption>
+            {{ end }}
+        </figure>
         </div>
         <div class="description" id="desc-{{ .Params.titre | urlize }}">
             {{ .Content }}

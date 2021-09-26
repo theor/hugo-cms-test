@@ -8,7 +8,7 @@ description: |-
   - Un leader rassembleur et expérimenté
   - Une équipe compétente et dévouée
 ---
-**Le parti** Action Longueuil est honoré de pouvoir compter
+Action Longueuil est honoré de pouvoir compter
 sur Jacques Létourneau à titre de candidat à la
 mairie pour l’élection municipale du 7 novembre
 prochain.
@@ -26,7 +26,7 @@ gens.
 ## Expérimenté
 
 Jacques Létourneau a débuté sa carrière comme
-président du syndicat des employés de l’hôpital **Charles-Le Moyne**, dans l’arrondissement de Greenfield Park.
+président du syndicat des employés de l’hôpital Charles-Le Moyne, dans l’arrondissement de Greenfield Park.
 
 Tout au long de son parcours, le chef d’Action Longueuil
 a occupé de nombreuses fonctions et a été impliqué
@@ -60,7 +60,7 @@ dans la communauté longueuilloise.
 
 Guidé par une plateforme électorale audacieuse et
 inspirante, Jacques Létourneau et son équipe sont
-déterminés à améliorer le sort des **citoyen-ne-s**.
+déterminés à améliorer le sort des citoyen⸱ne⸱s.
 
 Le 7 novembre prochain, nous invitons tous les
 résidents des trois arrondissements à faire un choix
