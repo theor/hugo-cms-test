@@ -1,5 +1,7 @@
 ---
 ---
+
+{{< img src="plateforme-groupe.jpg" alt="Photo de groupe" >}} 
 Chers Longueuillois et chères Longueilloises, 
 
 Après plusieurs mois de réflexions avec mon équipe et d’échanges avec les citoyen.ne.s de Longueuil, je suis fier de vous présenter notre plateforme électorale 2021. Ces engagements reflètent notre vision d’avenir pour une ville en action, à l’écoute des besoins et des préoccupations des gens et qui prend la place qui lui revient en tant que leader régional et provincial.
@@ -21,7 +23,5 @@ Jacques Létourneau, Candidat à la mairie de Longueuil
 Chef d’action Longueuil – Équipe Jacques Létourneau
 
 {{< rawhtml >}}
-<img class="signature lozad" data-src="/plateforme/signature.png" alt="Jacques Létourneau">
+<img class="signature lozad" data-src="/plateforme/signature.png" alt="Jacques Létourneau" class="">
 {{< /rawhtml >}}
-
-{{< img src="plateforme-groupe.jpg" alt="Photo de groupe" >}} 
