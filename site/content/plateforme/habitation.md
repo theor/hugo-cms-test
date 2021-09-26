@@ -41,7 +41,6 @@ Jacques Létourneau et l’équipe d’Action Longueuil s’engagent à tenir ra
 
 Comme maire de Longueuil, Jacques Létourneau, en collaboration avec les autres paliers de gouvernements, compte mettre en place de nouveaux outils pour soutenir la rénovation du parc résidentiel.
 
-{{< img src="Plateforme_V930.png" >}}
 {{< box >}}
 À cette fin, un programme de rénovation bonifié sera offert aux propriétaires désirant moderniser leur propriété. Cette mesure permettra de conserver le patrimoine architectural longueuillois, tout en améliorant la qualité de vie des citoyen⸱ne⸱s.
 {{< /box >}}
