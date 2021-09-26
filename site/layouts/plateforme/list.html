@@ -15,7 +15,7 @@
     {{- $img := (site.GetPage .Page.Section).Resources.GetMatch (printf "*%s*" .Params.image) -}}
     {{- $img := $img.Resize "20x" -}}
     {{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
-    <li style="background: url(data:image/jpeg;base64,{{ $img.Content | base64Encode  }}); background-size: cover;">
+    <li >
         <!-- <img src="{{ .Params.image }}"> -->
         <span>
         <a href="/plateforme/#{{.Params.titre | urlize}}">{{ $.Scratch.Get "index" }}. {{.Params.titre}}</a>
