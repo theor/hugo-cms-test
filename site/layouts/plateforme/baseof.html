@@ -28,13 +28,12 @@
         --bottom-spacing: 16.5px;
     }
 
-    .content.intro{
+    .content.intro {
         margin: 30px;
         font-size: 20px;
     }
 
-    .content.intro h1 
-    {
+    .content.intro h1 {
         font-size: 2em;
     }
 
@@ -42,6 +41,7 @@
         padding: 30px;
         margin: 10px;
     }
+
     .description h2 {
         font-size: 2rem;
         border-bottom: solid 1px var(--secondary-color);
@@ -61,7 +61,9 @@
 
     .description .img {
         margin-bottom: 1.6em;
-        position:absolute; top: 0; bottom: 0
+        position: absolute;
+        top: 0;
+        bottom: 0
     }
 
     .axe {
@@ -91,6 +93,7 @@
         flex-direction: row;
         border-top: solid 4px var(--primary-color);
     }
+
     .axe .header .img img {
         /* position: absolute; */
         top: 0;
@@ -115,126 +118,149 @@
         margin: 2px 3px;
     }
 
-.axe div.content {
+    .axe div.content {
 
-    padding: 30px 50px;
-    flex: 1;
-    flex-grow: 1;
-}
+        padding: 30px 50px;
+        flex: 1;
+        flex-grow: 1;
+    }
 
-.axe .header .content {
-    margin-bottom: 0;
-}
+    .axe .header .content {
+        margin-bottom: 0;
+    }
 
-.axe h1 {
-    font-weight: bold;
-    font-size: 2rem;
-    margin-bottom: 0.2em;
-}
-.axe .description h2, .description p {
-    margin-bottom: var(--bottom-spacing);
-}
+    .axe h1 {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 0.2em;
+    }
 
-.axe ul {
-    padding-left: 19px;
-    margin: 14px 0;
-    list-style-type: circle;
-}
+    .axe .description h2,
+    .description p {
+        margin-bottom: var(--bottom-spacing);
+    }
 
-.axe .read-more {
-    margin-bottom: 18px;
-}
+    .axe ul {
+        padding-left: 19px;
+        margin: 14px 0;
+        list-style-type: circle;
+    }
 
-.summary {
+    .axe .read-more {
+        margin-bottom: 18px;
+    }
 
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    /* padding: 0px 40px; */
-    font-size: 2em;
-}
+    .summary {
 
-.summary img {
-    flex: 1;
-    /* width: 50px; */
-    object-fit: cover;
-    float: left;
-}
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 0px 40px; */
+        font-size: 2em;
+    }
 
-.summary li span {
-    display: flex;
-    padding: 20px;
-    backdrop-filter: blur(5px);
-    width: 100%;
-    height: 100%;
+    .summary img {
+        flex: 1;
+        /* width: 50px; */
+        object-fit: cover;
+        float: left;
+    }
 
-}
+    .summary li span {
+        display: flex;
+        padding: 20px;
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100%;
 
-.summary li a {
-    padding: 4px;
-    vertical-align: middle;
-    font-size: .8em;
-    color: #333;
-    font-weight: 900;
-    /* background-color: var(--primary-color); */
-    align-self: center;
-}
+    }
 
-.summary li a:hover {
-    color: var(--primary-color);
-    text-decoration: underline;
-}
+    .summary li a {
+        padding: 4px;
+        vertical-align: middle;
+        font-size: .8em;
+        color: #333;
+        font-weight: 900;
+        /* background-color: var(--primary-color); */
+        align-self: center;
+    }
 
-.summary li {
-background-color: var(--secondary-color); /* Tint color */
-background-blend-mode: multiply;
-    width: 280px;
-    background-size: cover;
-    height: 3em;
-    display: flex;
-    flex-direction: row;
-    margin: 5px 10px;
-}
+    .summary li a:hover {
+        color: var(--primary-color);
+        text-decoration: underline;
+    }
 
-input.collapse[type="checkbox"]:checked+label {
-    color: red;
-}
-div.divFooter {
- display:none;
-}
+    .summary li {
+        background-color: var(--secondary-color);
+        /* Tint color */
+        background-blend-mode: multiply;
+        width: 280px;
+        background-size: cover;
+        height: 3em;
+        display: flex;
+        flex-direction: row;
+        margin: 5px 10px;
+    }
 
-img.signature {
-    width:unset;
-}
+    input.collapse[type="checkbox"]:checked+label {
+        color: red;
+    }
+
+    div.divFooter {
+        display: none;
+    }
+
+    img.signature {
+        width: unset;
+    }
+
     /* tablet and desktop */
     @media only screen and (min-width: 800px) {
         .axe:nth-of-type(odd) .header {
             flex-direction: row-reverse;
         }
 
-.axe .img {
-    width: 50%;
-}
+        .axe .header .img {
+            width: 50%;
+        }
+        .axe .header .img img {
+            height: 100%;
+            object-fit: cover;
+        }
+
         .axe .description img {
             background-color: #f5f5f5;
             object-fit: cover;
             flex: 1;
             /* width: 200px; */
         }
+
         .axe figure {
             width: 50%;
             object-fit: cover;
         }
+
         .axe figure {
             position: relative;
         }
+
         .axe .header figure img {
             height: 100%;
             width: unset;
             object-fit: cover;
         }
-        .axe figcaption :first, .axe figcaption p { margin-bottom: 0; padding-left: 12px; }
-        .axe figcaption p { margin: 0; padding-left: 12px;}
+
+        .axe figcaption :first,
+        .axe figcaption p {
+            margin-bottom: 0;
+            padding-left: 12px;
+        }
+
+        .axe figcaption p {
+            margin: 0;
+            padding-left: 12px;
+        }
+
         .axe figcaption {
             display: none;
             position: absolute;
@@ -243,13 +269,15 @@ img.signature {
             background-color: black;
         }
     }
+
     /* mobile */
     @media all and (max-width: 800px) {
         .axe .header {
             flex-direction: column-reverse;
         }
+
         .axe .header .img img {
-        position: unset;
+            position: unset;
         }
 
         .axe img {
@@ -260,6 +288,7 @@ img.signature {
         .axe .header h1 {
             margin-top: 4px;
         }
+
         h1 a {
             font-size: 20px;
         }
@@ -267,6 +296,7 @@ img.signature {
         .axe .description {
             padding: 2px;
         }
+
         .axe .description h2 {
             font-size: 20px;
         }
@@ -277,23 +307,30 @@ img.signature {
     }
 
     @media print {
-        .keywords { display: none; }
+        .keywords {
+            display: none;
+        }
+
         .summary li {
             height: unset;
             width: unset;
             background-image: unset;
         }
+
         .summary li span {
             padding: 5px
         }
+
         .summary li span a {
             color: black;
         }
-        .keyword { 
+
+        .keyword {
             color: var(--primary-color);
             text-decoration-line: underline;
             background-color: unset;
-         }
+        }
+
         .read-more {
             display: none;
         }
@@ -301,10 +338,12 @@ img.signature {
         .pagebreak {
             break-before: auto;
         }
+
         .description h2 {
             break-inside: avoid;
             break-after: avoid;
         }
+
         .description h2::after {
             content: "";
             display: block;
@@ -317,22 +356,22 @@ img.signature {
             break-inside: avoid;
             margin-bottom: 1.6em;
         }
-        
+
         .axe {
             box-shadow: none;
         }
-        
-        .text-box {
 
-        }
+        .text-box {}
 
         .axe .header {
             flex-direction: row;
         }
+
         .axe .header a {
             font-size: 2.5rem;
             text-transform: uppercase;
         }
+
         .axe .header a::first-letter {
             font-size: 3.0rem;
             text-transform: uppercase;
@@ -343,20 +382,19 @@ img.signature {
             object-fit: cover;
         }
 
-        
-        figure > img {
+
+        figure>img {
             width: 80%;
-       }
+        }
 
-       /*tfoot {display: table-footer-group;}*/
-       div.divFooter {
-           font-size: 0.5em;
-        display:unset;
-        position: fixed;
-        bottom: 0;
-      }
+        /*tfoot {display: table-footer-group;}*/
+        div.divFooter {
+            font-size: 0.5em;
+            display: unset;
+            position: fixed;
+            bottom: 0;
+        }
     }
-
 </style>
 <!-- {{- partial "header.html" . -}} -->
 
