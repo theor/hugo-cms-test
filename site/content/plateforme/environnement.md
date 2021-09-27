@@ -14,6 +14,8 @@ description: >-
   * Mettre fin rapidement au déversement des eaux usées dans le fleuve avec des nouvelles infrastructures fiables
 
   * Offrir des parcomètres gratuits pour toutes les voitures électriques et doubler le nombre de bornes de recharges publiques
+
+  * La planète s'invite à la mairie : 68 mesures pour une transition écologique
 ---
 À Longueuil, environ 80% des émissions de CO2 sont générées par les véhicules routiers. Pour diminuer les GES, l’adoption du véhicule électrique comme mode de transport est une solution incontournable.
 
@@ -25,7 +27,7 @@ Action Longueuil équipe Jacques Létourneau  s’engage à  doubler le nombre d
 
 {{< img src="Plateforme_V948.png" >}}
 
-## Réduction des GES
+## Déversement des eaux usées
 
 Actuellement, Longueuil a le pire bilan en matière de déversements de toutes les municipalités du Québec. Un bilan peu reluisant. Il est grand temps de s’attaquer au problème de front et de cesser de déverser nos eaux usées dans le fleuve St-Laurent.
 
@@ -47,4 +49,16 @@ Action Longueuil équipe Jacques Létourneau préconise l’implantation d'un mo
 
 {{< box >}}
 Jacques Létourneau s’engage ainsi à intensifier les représentations afin qu’un accord définitif, avec un échéancier clair, soit conclu avec le gouvernement du Québec pour obtenir un **nouveau mode de transport** collectif électrique à Longueuil.
+{{< /box >}}
+
+## La planète s’invite à la mairie
+
+Les municipalités jouent un rôle crucial dans la mise en place de la transition écologique.
+
+{{< img src="Plateforme_V982.jpg" >}}
+
+Dans cet esprit, Vire au vert, une initiative de mobilisation citoyenne, a proposé 68 mesures pour mettre l’environnement à l’avant-plan dans toutes les décisions municipales.
+
+{{< box >}}
+Action Longueuil équipe Jacques Létourneau s’engage à appliquer cette feuille de route sur laquelle la Ville s’appuiera pour lutter contre les changements climatiques. Pour consulter l’ensemble de leurs propositions : [www.vireauvert.org](www.vireauvert.org)
 {{< /box >}}
