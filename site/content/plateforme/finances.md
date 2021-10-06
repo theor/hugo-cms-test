@@ -35,8 +35,9 @@ Pour donner un répit aux contribuables, Jacques Létourneau et son équipe offr
 {{< /box >}}
 
 ## Partage des surplus
+
 Le chef d’Action Longueuil possède une grande expérience de gestionnaire d’importants  portefeuilles. Une administration dirigée par Jacques Létourneau sera responsable, viable et dynamique.
 
 {{< box >}}
- Action Longueuil s’engage à redistribuer une partie des surplus budgétaire annuels aux contribuables, sous la forme d’ajout de services et d'une bonification de l'envelope du **budget participatif citoyen**. Cette façon de faire permettra de partager les bénéfices de la bonne gestion financière de la Ville avec tous les citoyen⸱ne⸱s.
+ Action Longueuil s’engage à redistribuer une partie des surplus budgétaires annuels aux contribuables, sous la forme d’ajout de services et d'une bonification de l'enveloppe du **budget participatif citoyen**. Cette façon de faire permettra de partager les bénéfices de la bonne gestion financière de la Ville avec tous les citoyen⸱ne⸱s.
 {{< /box >}}

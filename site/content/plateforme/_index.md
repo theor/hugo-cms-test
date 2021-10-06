@@ -14,7 +14,7 @@ La scène municipale est la plus près des gens, c’est à ce niveau que nous p
 
 Plusieurs défis nécessitent des actions rapides. Ma priorité numéro UN est le dossier du logement abordable. Étudiants, aînés, familles de la classe moyenne, plusieurs citoyens n’arrivent plus à se trouver un toit à un prix raisonnable à Longueuil.
 
-Le transport en commun a aussi besoin d’être développé davantage, tant pour réduire considérablement les émissions de gaz à effet de serre que pour stimuler l’économie locale. Je compte aussi m’assurer que les finances de la Ville soient gérées de façon responsables et prévisibles. 
+Le transport en commun a aussi besoin d’être développé davantage, tant pour réduire considérablement les émissions de gaz à effet de serre que pour stimuler l’économie locale. Je compte aussi m’assurer que les finances de la Ville soient gérées de façon responsable et prévisible. 
 
 Je nous souhaite une ville qui est belle, propre et sécuritaire, une ville qui offre des services de proximité et qui répond à vos attentes. Rendez-vous le 7 novembre prochain !
 
